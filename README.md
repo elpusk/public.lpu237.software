@@ -2,11 +2,11 @@
 installer package of lpu237' software.
 
 # information
-* date - 2018.03.21
+* date - 2018.04.30
 * description
-  * Addmit 사의 codestick 을 지원.
+  * uninstall 시에 registry 에 남는 일부 키와 키값을 자동 삭제.
 * version
-  * [full 32 bits](./full/x86/lp230_1_8_57.msi)
+  * [full 32 bits](./full/x86/lp230_1_8_58.msi)
     - lpu230 SO v1.8.22
     - lpu230 keylock SO v1.14.1
     - Mapper v1.38.0.4
@@ -18,7 +18,7 @@ installer package of lpu237' software.
     - controller v1.2.0.1( ng_ManagerCtl.exe )
     - service v1.1.0.1(ng_SSS.exe )
     - DDL v1.0 ( ng_DDL_lpu237.dll )
-  * [full 64 bits](./full/x64/lpu230_x64_1_8_57.msi)
+  * [full 64 bits](./full/x64/lpu230_x64_1_8_58.msi)
     - Mapper v1.38.0.4
     - lpu237 api v3.0(tg_lpu237_dll.dll)
     - lpu237 i-button api v3.0(tg_lpu237_ibutton.dll)

@@ -10,7 +10,7 @@ installer package of lpu237' software.
   * NCR Device Services API 가 OPOS 의 service object를 통해 tg_lpu237_dll.dll 사용시 문제 회피를 위한 제작.
   * OPOS 관련 문제 해결을 위한 임시로 추가된 package 이므로 OPOS service object 지원이 없는 64비트 package 는 없음.
 * version
-  * [msr only 32 bits](./msr_only/x86/lp230_1_8_64.msi)
+  * [msr only 32 bits](./msr_only/x86/lpu230_msr_only_1_8_64.msi)
     - lpu230 SO v1.8.22
     - Mapper v1.44.0.4
     - Javapos SO v1.11

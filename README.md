@@ -2,22 +2,95 @@
 installer package of lpu237' software.
 
 # information
-* date - 2022.08.21
+* date - 2022.11.11
 * description
-  * MSR only install package 처음 제작
-  * 일반 package1.8.64 에서 i-button 관련 component 제거. MSR 만 있는 lpu237 제품을 위한 것.
-  * 일반 package1.8.64 의 tg_lpu237_dll.dll v3.0을 NDM 을 사용하지 않는 최종 버전 v1.6으로 교체.
-  * NCR Device Services API 가 OPOS 의 service object를 통해 tg_lpu237_dll.dll 사용시 문제 회피를 위한 제작.
-  * OPOS 관련 문제 해결을 위한 임시로 추가된 package 이므로 OPOS service object 지원이 없는 64비트 package 는 없음.
-* version
-  * [msr only 32 bits](./msr_only/x86/lpu230_msr_only_1_8_64.msi)
-    - lpu230 SO v1.8.22
-    - Mapper v1.44.0.4
-    - Javapos SO v1.11
-    - lpu237 api v1.6(tg_lpu237_dll.dll)
-    - lpu237 firmware api v3.1(tg_lpu237_fw.dll)
-    - manager v1.5( ng_DevManager.exe )
-    - controller v1.2.0.1( ng_ManagerCtl.exe )
-    - service v1.1.0.1(ng_SSS.exe )
-    - DDL v1.0 ( ng_DDL_lpu237.dll )
+  * Mapper v1.45.0.4 업데이트를 위한 package.
+  * MSR combination 기능 지원.
+  * i-button 제거시, 전송되는 키(i-button remove-indicator) 정의 기능 추가.
+  * i-button 데이터 전송시 pre/postfix와 i-button remove-indicator 의 pre/postfix 분리.
+  * lpu230_update.exe v1.1 로 업데이트.  Mapper v1.45.0.4 에서 추가된 기능 지원.
+  * tg_lpu237_fw.dll v3.2 로 업데이트.  Mapper v1.45.0.4 에서 추가된 기능 지원.
+  * Mapper 기능 오류 수정.
+
+* version - 각 버전은 같이 설치 불가. 다른 버전 설치시, 기존 버전 제거 후 , 설치. 같은 버전 끼리만 업데이트.(ex 현재 "full 32 bits" 설치되어 있는데 "full 64 bits" 설치하려면, 기존 것 제거 후, 설치.)
+  * [full 32 bits](./full/x86/lp230_1_8_65.msi)
+    - 지원되는 기능
+      - mapper를 통한 설정.
+      - MSR & i-button [OPOS](http://monroecs.com/index.htm) service object(이하 SO).
+      - native MSR application 지원을 위한 32bits win32 dll.
+      - native i-button application 지원을 위한 32bits win32 dll.
+      - native firmware application 지원을 위한 32bits win32 dll.
+      - 사용자 application 은 MSR 과 i-button 을 독립된 장비로 프로그램 가능.
+      - Windows service process( session 0, system account)에서 OPOS Common Control Objects(이하 CCO)를 사용할 경우, 제공되는 SO 사용 <span style="color:red">불가능</span>.
+      - Windows service process( session 0, system account)에서 MSR, i-button 또는 firmware application 지원을 위한 dll 사용 <span style="color:red">불가능</span>.
+    - 포함된 components
+      - lpu230 SO v1.8.22
+      - lpu230 keylock SO v1.14.1
+      - Mapper v1.45.0.4
+      - Javapos SO v1.11
+      - lpu237 api v3.0(tg_lpu237_dll.dll)
+      - lpu237 i-button api v3.0(tg_lpu237_ibutton.dll)
+      - lpu237 firmware api v3.2(tg_lpu237_fw.dll)
+      - manager v1.5( ng_DevManager.exe )
+      - controller v1.2.0.1( ng_ManagerCtl.exe )
+      - service v1.1.0.1(ng_SSS.exe )
+      - DDL v1.0 ( ng_DDL_lpu237.dll )
+  * [full 64 bits](./full/x64/lpu230_x64_1_8_65.msi)
+    - 지원되는 기능
+      - mapper를 통한 설정.
+      - native MSR application 지원을 위한 64bits win32 dll.
+      - native i-button application 지원을 위한 64bits win32 dll.
+      - native firmware application 지원을 위한 64bits win32 dll.
+      - 사용자 application 은 MSR 과 i-button 을 독립된 장비로 프로그램 가능.
+      - Windows service process( session 0, system account)에서 MSR, i-button 또는 firmware application 지원을 위한 dll 사용 <span style="color:red">불가능</span>.
+    - 포함된 components
+      - Mapper v1.45.0.4
+      - lpu237 api v3.0(tg_lpu237_dll.dll)
+      - lpu237 i-button api v3.0(tg_lpu237_ibutton.dll)
+      - lpu237 firmware api v3.2(tg_lpu237_fw.dll)
+      - manager v1.5( ng_DevManager.exe )
+      - controller v1.2.0.1( ng_ManagerCtl.exe )
+      - service v1.1.0.1(ng_SSS.exe )
+      - DDL v1.0 ( ng_DDL_lpu237.dll )
+  * [mapper only 32 bits](./mapper_only/x86/lpu237_mapper_only_1_45_0.msi)
+    - 지원되는 기능
+      - mapper를 통한 설정.
+    - 포함된 component
+      - Mapper v1.45.0.4
+  * [mapper only 64 bits](./mapper_only/x64/lpu237_mapper_only_x64_1_45_0.msi)
+    - 지원되는 기능
+      - mapper를 통한 설정.
+    - 포함된 component
+      - Mapper v1.45.0.4
+  * [msr only 32 bits](./msr_only/x86/lpu230_msr_only_1_8_65.msi)
+    - 지원되는 기능
+      - mapper를 통한 설정.
+      - MSR [OPOS](http://monroecs.com/index.htm) SO.
+      - native MSR application 지원을 위한 32bits win32 dll.
+      - native firmware application 지원을 위한 32bits win32 dll.
+      - 사용자 application 은 MSR 만 프로그램 가능.
+      - Windows service process( session 0, system account)에서 OPOS CCO를 사용할 경우도, 제공되는 SO 사용 가능.(NCR Device Services API 에서 사용 가능.)
+      - Windows service process( session 0, system account)에서 MSR application 지원을 위한 dll 사용 가능.
+      - Windows service process( session 0, system account)에서 firmware application 지원을 위한 dll 사용 <span style="color:red">불가능</span>.
+    - 포함된 components
+      - lpu230 SO v1.8.22
+      - Mapper v1.45.0.4
+      - Javapos SO v1.11
+      - lpu237 api v1.6(tg_lpu237_dll.dll)
+      - lpu237 firmware api v3.2(tg_lpu237_fw.dll)
+      - manager v1.5( ng_DevManager.exe )
+      - controller v1.2.0.1( ng_ManagerCtl.exe )
+      - service v1.1.0.1(ng_SSS.exe )
+      - DDL v1.0 ( ng_DDL_lpu237.dll )
+  * lpu230_update : 고객 특별 요청으로 2019.12.11 부터 배포. Mapper 설치 없이, rom 파일로, lpu237 firmware 를 업데이트하는 프로그램.
+    - 지원되는 기능
+      - lpu237 firmware 업데이트.
+    - 포함된 components
+	    - lpu230_update.exe v1.1 : 프로그램 본체.
+	    - ng_DDL_hid.dll :  lpu230_update.exe 에서 사용하는 라이브러리.
+	    - tg_rom.dll  :  lpu230_update.exe 에서 사용하는 라이브러리.
+	    - lpu230_update_UM_EN_002.pdf : 프로그램 사용 설명서 영문.
+	    - lpu230_update_UM_KOR_002.pdf : 프로그램 사용 설명서 국문.
+-----------
+
     

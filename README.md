@@ -2,18 +2,15 @@
 installer package of lpu237' software.
 
 # information
-* date - 2022.11.11
+* date - 2022.11.28
 * description
-  * Mapper v1.45.0.4 업데이트를 위한 package.
-  * MSR combination 기능 지원.
-  * i-button 제거시, 전송되는 키(i-button remove-indicator) 정의 기능 추가.
-  * i-button 데이터 전송시 pre/postfix와 i-button remove-indicator 의 pre/postfix 분리.
-  * lpu230_update.exe v1.1 로 업데이트.  Mapper v1.45.0.4 에서 추가된 기능 지원.
-  * tg_lpu237_fw.dll v3.2 로 업데이트.  Mapper v1.45.0.4 에서 추가된 기능 지원.
-  * Mapper 기능 오류 수정.
+  * tg_lpu237_tools.dll v1.0 추가를 위한 package.
+  * [full 32 bits](./full/x86/lp230_1_8_66.msi) 에 추가됨.
+  * [full 64 bits](./full/x64/lpu230_x64_1_8_66.msi) 에 추가됨.
+  * [msr only 32 bits](./msr_only/x86/lpu230_msr_only_1_8_66.msi) 에 추가됨.
 
 * version - 각 버전은 같이 설치 불가. 다른 버전 설치시, 기존 버전 제거 후 , 설치. 같은 버전 끼리만 업데이트.(ex 현재 "full 32 bits" 설치되어 있는데 "full 64 bits" 설치하려면, 기존 것 제거 후, 설치.)
-  * [full 32 bits](./full/x86/lp230_1_8_65.msi)
+  * [full 32 bits](./full/x86/lp230_1_8_66.msi)
     - 지원되는 기능
       - mapper를 통한 설정.
       - MSR & i-button [OPOS](http://monroecs.com/index.htm) service object(이하 SO).
@@ -31,11 +28,12 @@ installer package of lpu237' software.
       - lpu237 api v3.0(tg_lpu237_dll.dll)
       - lpu237 i-button api v3.0(tg_lpu237_ibutton.dll)
       - lpu237 firmware api v3.2(tg_lpu237_fw.dll)
+      - lpu237 tools api v1.0(tg_lpu237_tools.dll)
       - manager v1.5( ng_DevManager.exe )
       - controller v1.2.0.1( ng_ManagerCtl.exe )
       - service v1.1.0.1(ng_SSS.exe )
       - DDL v1.0 ( ng_DDL_lpu237.dll )
-  * [full 64 bits](./full/x64/lpu230_x64_1_8_65.msi)
+  * [full 64 bits](./full/x64/lpu230_x64_1_8_66.msi)
     - 지원되는 기능
       - mapper를 통한 설정.
       - native MSR application 지원을 위한 64bits win32 dll.
@@ -48,6 +46,7 @@ installer package of lpu237' software.
       - lpu237 api v3.0(tg_lpu237_dll.dll)
       - lpu237 i-button api v3.0(tg_lpu237_ibutton.dll)
       - lpu237 firmware api v3.2(tg_lpu237_fw.dll)
+      - lpu237 tools api v1.0(tg_lpu237_tools.dll)
       - manager v1.5( ng_DevManager.exe )
       - controller v1.2.0.1( ng_ManagerCtl.exe )
       - service v1.1.0.1(ng_SSS.exe )
@@ -62,7 +61,8 @@ installer package of lpu237' software.
       - mapper를 통한 설정.
     - 포함된 component
       - Mapper v1.45.0.4
-  * [msr only 32 bits](./msr_only/x86/lpu230_msr_only_1_8_65.msi)
+  * [msr only 32 bits](./msr_only/x86/lpu230_msr_only_1_8_66.msi)
+    - 주의 : <span style="color:red">MSR SO 는 독립적으로 장비에 접근하기 때문에, 프로그래밍 설계방식에 따라 tg_lpu237_tools.dll 사용시 동기화 문제 발생 소지가 있음.</span>.
     - 지원되는 기능
       - mapper를 통한 설정.
       - MSR [OPOS](http://monroecs.com/index.htm) SO.
@@ -77,7 +77,9 @@ installer package of lpu237' software.
       - Mapper v1.45.0.4
       - Javapos SO v1.11
       - lpu237 api v1.6(tg_lpu237_dll.dll)
+      - lpu237 i-button api v3.0(tg_lpu237_ibutton.dll)
       - lpu237 firmware api v3.2(tg_lpu237_fw.dll)
+      - lpu237 tools api v1.0(tg_lpu237_tools.dll)
       - manager v1.5( ng_DevManager.exe )
       - controller v1.2.0.1( ng_ManagerCtl.exe )
       - service v1.1.0.1(ng_SSS.exe )

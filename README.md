@@ -2,12 +2,11 @@
 installer package of lpu237' software.
 
 # information
-* date - 2022.11.28
+* date - 2022.12.28
 * description
-  * tg_lpu237_tools.dll v1.0 추가를 위한 package.
-  * [full 32 bits](./full/x86/lp230_1_8_66.msi) 에 추가됨.
-  * [full 64 bits](./full/x64/lpu230_x64_1_8_66.msi) 에 추가됨.
-  * [msr only 32 bits](./msr_only/x86/lpu230_msr_only_1_8_66.msi) 에 추가됨.
+  * 고객 요청으로 lpu230_api_tools_UM_KOR_V1.0.pdf 의 영문판 [lpu230_api_tools_UM_EN_V1.0.pdf](./doc/lpu230_api_tools_UM_EN_V1.0.pdf) 가 추가됨.
+  * 고객 요청으로 lpu230_fw_api_UM_KOR_005.pdf 의 영문판 [lpu230_fw_api_UM_EN_005.pdf](./doc/lpu230_fw_api_UM_EN_005.pdf) 가 추가됨.
+  
 
 * version - 각 버전은 같이 설치 불가. 다른 버전 설치시, 기존 버전 제거 후 , 설치. 같은 버전 끼리만 업데이트.(ex 현재 "full 32 bits" 설치되어 있는데 "full 64 bits" 설치하려면, 기존 것 제거 후, 설치.)
   * [full 32 bits](./full/x86/lp230_1_8_66.msi)

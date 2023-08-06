@@ -2,10 +2,11 @@
 installer package of lpu237' software.
 
 # information
-* date - 2022.12.28
+* date - 2023.08.07
 * description
-  * 고객 요청으로 lpu230_api_tools_UM_KOR_V1.0.pdf 의 영문판 [lpu230_api_tools_UM_EN_V1.0.pdf](./doc/lpu230_api_tools_UM_EN_V1.0.pdf) 가 추가됨.
-  * 고객 요청으로 lpu230_fw_api_UM_KOR_005.pdf 의 영문판 [lpu230_fw_api_UM_EN_005.pdf](./doc/lpu230_fw_api_UM_EN_005.pdf) 가 추가됨.
+  * lpu238 지원하는 mapperr alpa version.(lpu230.exe v1.45.1 ) [mapper only 32 bits](./mapper_only/x86/lpu237_mapper_only_1_45_0.msi)
+  * 설명서도 업데이트 아직없음.
+  * 급한 개발 용도 이외에는 사용 금지 
   
 
 * version - 각 버전은 같이 설치 불가. 다른 버전 설치시, 기존 버전 제거 후 , 설치. 같은 버전 끼리만 업데이트.(ex 현재 "full 32 bits" 설치되어 있는데 "full 64 bits" 설치하려면, 기존 것 제거 후, 설치.)
@@ -50,11 +51,11 @@ installer package of lpu237' software.
       - controller v1.2.0.1( ng_ManagerCtl.exe )
       - service v1.1.0.1(ng_SSS.exe )
       - DDL v1.0 ( ng_DDL_lpu237.dll )
-  * [mapper only 32 bits](./mapper_only/x86/lpu237_mapper_only_1_45_0.msi)
+  * [mapper only 32 bits](./mapper_only/x86/lpu237_mapper_only_1_45_1.msi)
     - 지원되는 기능
       - mapper를 통한 설정.
     - 포함된 component
-      - Mapper v1.45.0.4
+      - Mapper v1.45.1.4 <span style="color:red">alpa version</span>.
   * [mapper only 64 bits](./mapper_only/x64/lpu237_mapper_only_x64_1_45_0.msi)
     - 지원되는 기능
       - mapper를 통한 설정.

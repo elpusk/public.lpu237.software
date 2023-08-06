@@ -4,7 +4,7 @@ installer package of lpu237' software.
 # information
 * date - 2023.08.07
 * description
-  * lpu238 지원하는 mapperr alpa version.(lpu230.exe v1.45.1 ) [mapper only 32 bits](./mapper_only/x86/lpu237_mapper_only_1_45_0.msi)
+  * lpu238 지원하는 mapperr alpa version.(lpu230.exe v1.45.1 ) [mapper only 32 bits](./mapper_only/x86/lpu237_mapper_only_1_45_1.msi)
   * 설명서도 업데이트 아직없음.
   * 급한 개발 용도 이외에는 사용 금지 
   

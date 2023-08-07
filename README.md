@@ -1,12 +1,11 @@
 # public.lpu237.software
-installer package of lpu237' software.
+installer package of lpu23x' software.
 
 # information
-* date - 2022.12.28
+* date - 2023.08.07
 * description
-  * 고객 요청으로 lpu230_api_tools_UM_KOR_V1.0.pdf 의 영문판 [lpu230_api_tools_UM_EN_V1.0.pdf](./doc/lpu230_api_tools_UM_EN_V1.0.pdf) 가 추가됨.
-  * 고객 요청으로 lpu230_fw_api_UM_KOR_005.pdf 의 영문판 [lpu230_fw_api_UM_EN_005.pdf](./doc/lpu230_fw_api_UM_EN_005.pdf) 가 추가됨.
-  
+  * lpu238 지원을 위해 lpu230_update.exe를 v1.2로 업데이트.
+ 
 
 * version - 각 버전은 같이 설치 불가. 다른 버전 설치시, 기존 버전 제거 후 , 설치. 같은 버전 끼리만 업데이트.(ex 현재 "full 32 bits" 설치되어 있는데 "full 64 bits" 설치하려면, 기존 것 제거 후, 설치.)
   * [full 32 bits](./full/x86/lp230_1_8_66.msi)
@@ -87,11 +86,17 @@ installer package of lpu237' software.
     - 지원되는 기능
       - lpu237 firmware 업데이트.
     - 포함된 components
-	    - lpu230_update.exe v1.1 : 프로그램 본체.
+	    - lpu230_update.exe v1.2 : 프로그램 본체.
 	    - ng_DDL_hid.dll :  lpu230_update.exe 에서 사용하는 라이브러리.
 	    - tg_rom.dll  :  lpu230_update.exe 에서 사용하는 라이브러리.
-	    - lpu230_update_UM_EN_002.pdf : 프로그램 사용 설명서 영문.
-	    - lpu230_update_UM_KOR_002.pdf : 프로그램 사용 설명서 국문.
+	    - lpu230_update_UM_EN_003.pdf : 프로그램 사용 설명서 영문.
+	    - lpu230_update_UM_KOR_003.pdf : 프로그램 사용 설명서 국문.
+      - lpu230_update_v1.2.zip : 압축파일( lpu230_update.exe, ng_DDL_hid.dll,tg_rom.dll, lpu230_update_UM_EN_003.pdf 과 lpu230_update_UM_KOR_003.pdf )
+
+  * 기타
+    - 문서
+      - 고객 요청에 따른 lpu230_api_tools_UM_KOR_V1.0.pdf 의 영문판 [lpu230_api_tools_UM_EN_V1.0.pdf](./doc/lpu230_api_tools_UM_EN_V1.0.pdf).
+      - 고객 요청에 따른 lpu230_fw_api_UM_KOR_005.pdf 의 영문판 [lpu230_fw_api_UM_EN_005.pdf](./doc/lpu230_fw_api_UM_EN_005.pdf).
 -----------
 
     

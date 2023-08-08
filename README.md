@@ -1,5 +1,6 @@
 # public.lpu237.software
 installer package of lpu23x' software.
+[history](./doc/history_lpu23x.md)
 
 # information
 * date - 2023.08.09

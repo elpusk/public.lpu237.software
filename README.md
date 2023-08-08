@@ -2,9 +2,9 @@
 installer package of lpu23x' software.
 
 # information
-* date - 2023.08.07
+* date - 2023.08.09
 * description
-  * lpu238 지원을 위해 lpu230_update.exe를 v1.2로 업데이트.
+  * 정식 release - lpu238 지원을 위해 [mapper only 32 bits](./mapper_only/x86/lpu237_mapper_only_1_46_0.msi) 를 버전 1.46로 업데이트.
  
 
 * version - 각 버전은 같이 설치 불가. 다른 버전 설치시, 기존 버전 제거 후 , 설치. 같은 버전 끼리만 업데이트.(ex 현재 "full 32 bits" 설치되어 있는데 "full 64 bits" 설치하려면, 기존 것 제거 후, 설치.)
@@ -49,7 +49,7 @@ installer package of lpu23x' software.
       - controller v1.2.0.1( ng_ManagerCtl.exe )
       - service v1.1.0.1(ng_SSS.exe )
       - DDL v1.0 ( ng_DDL_lpu237.dll )
-  * [mapper only 32 bits](./mapper_only/x86/lpu237_mapper_only_1_45_0.msi)
+  * [mapper only 32 bits](./mapper_only/x86/lpu237_mapper_only_1_46_0.msi)
     - 지원되는 기능
       - mapper를 통한 설정.
     - 포함된 component

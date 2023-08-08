@@ -2,6 +2,23 @@
 installer package of lpu23x' software.
 [history](./doc/history_lpu23x.md)
 
+# etc
+* mapper 1.46(이하 mapper) 을 가지고, lpu237 를 lpu238 로 변경 하기.(비권장)
+  - 확장자가 rom 인 파일(이하 rom 파일)로 업데이트를 하면, 안정성을 위해 동일한 system name 과 update condition 이 만족 할 때만 업데이트를 허용 합니다.
+  - lpu237 은 서로 다른 하드웨어를 기반으로한 callisto, ganymede 라는 두 개의 system name이 있고, lpu238 은 lpu237 의  ganymede 와 하드웨어는 동일 하지만, 전혀 다른 interface 를 가진 장비로 PC에서 인식하고, europa 라는 system name 를 갖습니다. 따라서 mapper 에서 rom 파일로  lpu237 를 lpu238 로 변경은 불가능 합니다. 이런 안전성을 무시하고, mapper에서 , lpu237 를 lpu238 로 변경하기 위해서는 아래와 같이.......
+    - https://github.com/elpusk/public.lpu237.firmware 에서 lpu238_00001.zip 를 다운받아서 
+lpu238_1.0.bin 이라는 순수 lpu238 용 firmware binary 파일을 얻음.
+    - mapper 실행.
+    - "Selects Device" 선택(lpu238 변경하고자 하는 lpu237 선택) .
+    - "Updates Firmware" 선택.
+    - "파일 선택" 대화 상자에서 하단의 "파일 이름"에 "*" 라고 입력하고 엔터(모든 파일 보임).
+    - "lpu238_1.0.bin" 파일 선택.
+    - 업데이트 완료까지 기다림.
+
+*  lpu238 를  lpu237 로 변경.(비권장)
+   - 위 과정과 동일하며, lpu238_1.0.bin 대신 tylenol_5.21.bin 를 사용.
+   - tylenol_5.21.bin 는  https://github.com/elpusk/public.lpu237.firmware 의 lpu237_00026.zip 에서 얻음.
+
 # information
 * date - 2023.08.09
 * description

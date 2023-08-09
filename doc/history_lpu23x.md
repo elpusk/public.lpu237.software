@@ -1,5 +1,9 @@
 # lpu237 windows software history
 
+## 2023.08.09 – lpu237_mapper_only_x64_1_46_0.msi
+- x64(64 bits) 용 mapper only 설치 프로그램 배포.
+- mapper(lpu230.exe) 는 lpu238 지원을 위해 1.46.0.4 로 업데이트.
+
 ## 2023.08.09 – lpu237_mapper_only_1_46_0.msi
 - x86(32 bits) 용 mapper only 설치 프로그램 배포.
 - mapper(lpu230.exe) 는 lpu238 지원을 위해 1.46.0.4 로 업데이트.

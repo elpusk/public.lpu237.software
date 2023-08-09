@@ -74,7 +74,7 @@ lpu238_1.0.bin 이라는 순수 lpu238 용 firmware binary 파일을 얻음.
       - mapper를 통한 설정.
     - 포함된 component
       - Mapper v1.45.0.4
-  * [mapper only 64 bits](./mapper_only/x64/lpu237_mapper_only_x64_1_45_0.msi)
+  * [mapper only 64 bits](./mapper_only/x64/lpu237_mapper_only_x64_1_46_0.msi)
     - 지원되는 기능
       - mapper를 통한 설정.
     - 포함된 component

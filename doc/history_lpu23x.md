@@ -1,5 +1,111 @@
 # lpu237 windows software history
 
+## 2023.09.26 – lpu230_x64_1_8_67.msi
+- 64 bits full version.
+- lpu238 지원 및 버그 수정.
+- mapper 1.46.0.4 로 업데이트.
+  - lpu238(europa) 지원.
+- ng_DDL_lpu237.dll v1.0 -> v1.1.
+  - lpu238(europa) 지원.
+  - HidD_GetAttributes() 함수 에러 발생시, 다음 장비 찾기 계속
+- ng_DevManager.exe v1.5 -> v1.6.
+  - 일부 system에서 booting 시, 장비 인식 못하는 문제 수정. 처음 실행하고, 장비가 없으면, 장비 인식 될때 까지, polling 으로 주기적으로 장비 확인.
+- tg_lpu237_dll.dll v3.0 -> v4.0.
+  - lpu238(europa) 지원.
+  - ini 로딩 방법 변경.
+- tg_lpu237_fw.dll v3.2 -> v4.0.
+  - lpu238(europa) 지원.
+  - ini 로딩 방법 변경.
+- tg_lpu237_ibutton.dll v3.0 -> v4.0.
+  - lpu238(europa) 지원.
+  - ini 로딩 방법 변경.
+- tg_lpu237_tools.dll v3.0 -> v4.0.
+  - lpu238(europa) 지원.
+  - ini 로딩 방법 변경.
+- OposLpu230.dll v1.8.22 -> updated v1.8.23.
+  - ini 로딩 방법 변경.
+- OposLpu230.ini 삭제.
+  - OposLpu230.ini 의 session & key 는 lpu230.ini (MyDocument\Easyset\lpu230)으로 이동함.
+- lpu230_api_tools_UM_KOR_V1.0.pdf -> lpu230_api_tools_UM_KOR_V4.0.pdf
+- lpu230_api_UM_EN_002.pdf -> lpu230_api_UM_EN_003.pdf
+- lpu230_fw_api_UM_KOR_005.pdf -> lpu230_fw_api_UM_KOR_006.pdf
+- lpu230_mapper_UM_EN_023.pdf -> lpu230_mapper_UM_EN_024.pdf
+- lpu230_mapper_UM_KOR_023.pdf -> lpu230_mapper_UM_KOR_024.pdf
+- lpu237_api_ibutton_UM_EN_002.pdf -> lpu237_api_ibutton_UM_EN_004.pdf
+- lpu237_setting_file_EN_003.pdf -> lpu237_setting_file_EN_004.pdf
+- lpu237_setting_file_KOR_003.pdf -> lpu237_setting_file_KOR_004.pdf
+- tg_lpu237_dll.dll v4.0 을 강제로 direct mode 로 구동하기 위해, %ProgramData%\Easyset\00000000\tg_lpu237_dll\tg_lpu237_dll.ini 추가.
+
+## 2023.09.25 – lpu230_x64_1_8_67.msi
+- 64 bits full version.
+- lpu238 지원 및 버그 수정.
+- mapper 1.46.0.4 로 업데이트.
+  - lpu238(europa) 지원.
+- ng_DDL_lpu237.dll v1.0 -> v1.1.
+  - lpu238(europa) 지원.
+  - HidD_GetAttributes() 함수 에러 발생시, 다음 장비 찾기 계속
+- ng_DevManager.exe v1.5 -> v1.6.
+  - 일부 system에서 booting 시, 장비 인식 못하는 문제 수정. 처음 실행하고, 장비가 없으면, 장비 인식 될때 까지, polling 으로 주기적으로 장비 확인.
+- tg_lpu237_dll.dll v3.0 -> v4.0.
+  - lpu238(europa) 지원.
+  - ini 로딩 방법 변경.
+- tg_lpu237_fw.dll v3.2 -> v4.0.
+  - lpu238(europa) 지원.
+  - ini 로딩 방법 변경.
+- tg_lpu237_ibutton.dll v3.0 -> v4.0.
+  - lpu238(europa) 지원.
+  - ini 로딩 방법 변경.
+- tg_lpu237_tools.dll v3.0 -> v4.0.
+  - lpu238(europa) 지원.
+  - ini 로딩 방법 변경.
+- lpu230_api_tools_UM_KOR_V1.0.pdf -> lpu230_api_tools_UM_KOR_V4.0.pdf
+- lpu230_api_UM_EN_002.pdf -> lpu230_api_UM_EN_003.pdf
+- lpu230_fw_api_UM_KOR_005.pdf -> lpu230_fw_api_UM_KOR_006.pdf
+- lpu237_api_ibutton_UM_EN_002.pdf -> lpu237_api_ibutton_UM_EN_004.pdf
+- tg_lpu237_v3.0.zip -> tg_lpu237_v4.0.zip
+- test_tg_lpu237_ibutton_v3.0 -> test_tg_lpu237_ibutton_v4.0
+
+## 2023.09.25 – lp230_1_8_67.msi
+- 32 bits full version.
+- lpu238 지원 및 버그 수정.
+- mapper 1.46.0.4 로 업데이트.
+  - lpu238(europa) 지원.
+- ng_DDL_lpu237.dll v1.0 -> v1.1.
+  - lpu238(europa) 지원.
+  - HidD_GetAttributes() 함수 에러 발생시, 다음 장비 찾기 계속
+- ng_DevManager.exe v1.5 -> v1.6.
+  - 일부 system에서 booting 시, 장비 인식 못하는 문제 수정. 처음 실행하고, 장비가 없으면, 장비 인식 될때 까지, polling 으로 주기적으로 장비 확인.
+- tg_lpu237_dll.dll v3.0 -> v4.0.
+  - lpu238(europa) 지원.
+  - ini 로딩 방법 변경.
+- tg_lpu237_fw.dll v3.2 -> v4.0.
+  - lpu238(europa) 지원.
+  - ini 로딩 방법 변경.
+- tg_lpu237_ibutton.dll v3.0 -> v4.0.
+  - lpu238(europa) 지원.
+  - ini 로딩 방법 변경.
+- tg_lpu237_tools.dll v3.0 -> v4.0.
+  - lpu238(europa) 지원.
+  - ini 로딩 방법 변경.
+- OposLpu230Lock.dll v1.14.1 -> v1.14.2.
+  - ini 로딩 방법 변경.
+  - ini 설정에 따라 pos.for.net, set binary conversion 에서 발생하는 exception 발생하지 않도록 할 수 있도록 함.
+  - ini 설정에 따라 pos.for.net, key 값이 잘못 decoding 되는 문제 발생하지 않도록 할 수 있도록 함.
+- OposLpu230Lock.ini 삭제.
+  - OposLpu230Lock.ini 의 session & key 는 lpu230Lock.ini (MyDocument\Easyset\lpu230)으로 이동함.
+- OposLpu230.dll v1.8.22 -> updated v1.8.23.
+  - ini 로딩 방법 변경.
+- OposLpu230.ini 삭제.
+  - OposLpu230.ini 의 session & key 는 lpu230.ini (MyDocument\Easyset\lpu230)으로 이동함.
+- lpu230_api_tools_UM_KOR_V1.0.pdf -> lpu230_api_tools_UM_KOR_V4.0.pdf
+- lpu230_api_UM_EN_002.pdf -> lpu230_api_UM_EN_003.pdf
+- lpu230_fw_api_UM_KOR_005.pdf -> lpu230_fw_api_UM_KOR_006.pdf
+- lpu237_api_ibutton_UM_EN_002.pdf -> lpu237_api_ibutton_UM_EN_004.pdf
+- tg_lpu237_v3.0.zip -> tg_lpu237_v4.0.zip
+- test_tg_lpu237_ibutton_v3.0 -> test_tg_lpu237_ibutton_v4.0
+- test_opos_lock.exe v1.2 -> test_opos_lock.exe v1.3,
+  - OposLpu230Lock.dll v1.14.2 지원.
+
 ## 2023.08.09 – lpu237_mapper_only_x64_1_46_0.msi
 - x64(64 bits) 용 mapper only 설치 프로그램 배포.
 - mapper(lpu230.exe) 는 lpu238 지원을 위해 1.46.0.4 로 업데이트.

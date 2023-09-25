@@ -1,7 +1,7 @@
 # lpu237 windows software history
 
-## 2023.09.26 – lpu230_x64_1_8_67.msi
-- 64 bits full version.
+## 2023.09.26 – lpu230_msr_only_1_8_67.msi
+- 32 bits msr only version.
 - lpu238 지원 및 버그 수정.
 - mapper 1.46.0.4 로 업데이트.
   - lpu238(europa) 지원.
@@ -36,7 +36,7 @@
 - lpu237_setting_file_KOR_003.pdf -> lpu237_setting_file_KOR_004.pdf
 - tg_lpu237_dll.dll v4.0 을 강제로 direct mode 로 구동하기 위해, %ProgramData%\Easyset\00000000\tg_lpu237_dll\tg_lpu237_dll.ini 추가.
 
-## 2023.09.25 – lpu230_x64_1_8_67.msi
+## 2023.09.26 – lpu230_x64_1_8_67.msi
 - 64 bits full version.
 - lpu238 지원 및 버그 수정.
 - mapper 1.46.0.4 로 업데이트.
@@ -65,7 +65,7 @@
 - tg_lpu237_v3.0.zip -> tg_lpu237_v4.0.zip
 - test_tg_lpu237_ibutton_v3.0 -> test_tg_lpu237_ibutton_v4.0
 
-## 2023.09.25 – lp230_1_8_67.msi
+## 2023.09.26 – lp230_1_8_67.msi
 - 32 bits full version.
 - lpu238 지원 및 버그 수정.
 - mapper 1.46.0.4 로 업데이트.

@@ -1,4 +1,96 @@
-# lpu237 windows software history
+# lpu23x windows software history
+
+## 2023.10.24 - lp230_1_8_68.msi
+- 32 bits full version.
+- mapper 1.47.0.4 로 업데이트.
+  - i-button 전송 범위 설정 기능 지원. 
+  - advance firmware update mode 지원.
+  - firmware update 중 오류복구의 위한 임시파일 생성 위치를 %ProgramData%\Easyset\00000000\lpu237\data 로 변경.
+  - 설정파일 %ProgramData%\Easyset\00000000\lpu237\lpu.xml 추가.
+  - uninstall 시, %ProgramData%\Easyset\00000000\lpu237 에 추가되는 파일 삭제를 위해 lpu230_config.exe 추가.
+- tg_lpu237_dll.dll v4.0 -> v4.1.
+  - i-button 전송 범위 설정 기능 지원. 
+- tg_lpu237_fw.dll v4.0 -> v4.1.
+  - i-button 전송 범위 설정 기능 지원. 
+- tg_lpu237_ibutton.dll v4.0 -> v4.1.
+  - i-button 전송 범위 설정 기능 지원. 
+- tg_lpu237_tools.dll v4.0 -> v4.1.
+  - i-button 전송 범위 설정 기능 지원. 
+- lpu230_api_tools_UM_KOR_V4.0.pdf -> lpu230_api_tools_UM_KOR_V4.1.pdf
+- lpu230_mapper_UM_EN_024.pdf -> lpu230_mapper_UM_EN_025.pdf
+- lpu230_mapper_UM_KOR_024.pdf -> lpu230_mapper_UM_KOR_025.pdf
+- lpu237_setting_file_EN_004.pdf -> lpu237_setting_file_EN_005.pdf
+- lpu237_setting_file_KOR_004.pdf -> lpu237_setting_file_KOR_005.pdf
+
+## 2023.10.24 - lpu230_x64_1_8_68.msi
+- 64 bits full version.
+- mapper 1.47.0.4 로 업데이트.
+  - i-button 전송 범위 설정 기능 지원. 
+  - advance firmware update mode 지원.
+  - firmware update 중 오류복구의 위한 임시파일 생성 위치를 %ProgramData%\Easyset\00000000\lpu237\data 로 변경.
+  - 설정파일 %ProgramData%\Easyset\00000000\lpu237\lpu.xml 추가.
+  - uninstall 시, %ProgramData%\Easyset\00000000\lpu237 에 추가되는 파일 삭제를 위해 lpu230_config.exe 추가.
+- tg_lpu237_dll.dll v4.0 -> v4.1.
+  - i-button 전송 범위 설정 기능 지원. 
+- tg_lpu237_fw.dll v4.0 -> v4.1.
+  - i-button 전송 범위 설정 기능 지원. 
+- tg_lpu237_ibutton.dll v4.0 -> v4.1.
+  - i-button 전송 범위 설정 기능 지원. 
+- tg_lpu237_tools.dll v4.0 -> v4.1.
+  - i-button 전송 범위 설정 기능 지원. 
+- lpu230_api_tools_UM_KOR_V4.0.pdf -> lpu230_api_tools_UM_KOR_V4.1.pdf
+- lpu230_mapper_UM_EN_024.pdf -> lpu230_mapper_UM_EN_025.pdf
+- lpu230_mapper_UM_KOR_024.pdf -> lpu230_mapper_UM_KOR_025.pdf
+- lpu237_setting_file_EN_004.pdf -> lpu237_setting_file_EN_005.pdf
+- lpu237_setting_file_KOR_004.pdf -> lpu237_setting_file_KOR_005.pdf
+
+## 2023.10.24 - lpu237_mapper_only_1_47_0.msi
+- 32 bits mapper only version.
+- mapper 1.47.0.4 로 업데이트.
+  - i-button 전송 범위 설정 기능 지원. 
+  - advance firmware update mode 지원.
+  - firmware update 중 오류복구의 위한 임시파일 생성 위치를 %ProgramData%\Easyset\00000000\lpu237\data 로 변경.
+  - 설정파일 %ProgramData%\Easyset\00000000\lpu237\lpu.xml 추가.
+  - uninstall 시, %ProgramData%\Easyset\00000000\lpu237 에 추가되는 파일 삭제를 위해 lpu230_config.exe 추가.
+- lpu230_mapper_UM_EN_024.pdf -> lpu230_mapper_UM_EN_025.pdf
+- lpu230_mapper_UM_KOR_024.pdf -> lpu230_mapper_UM_KOR_025.pdf
+- lpu237_setting_file_EN_004.pdf -> lpu237_setting_file_EN_005.pdf
+- lpu237_setting_file_KOR_004.pdf -> lpu237_setting_file_KOR_005.pdf
+
+## 2023.10.24 - lpu237_mapper_only_x64_1_47_0.msi
+- 64 bits mapper only version.
+- mapper 1.47.0.4 로 업데이트.
+  - i-button 전송 범위 설정 기능 지원. 
+  - advance firmware update mode 지원.
+  - firmware update 중 오류복구의 위한 임시파일 생성 위치를 %ProgramData%\Easyset\00000000\lpu237\data 로 변경.
+  - 설정파일 %ProgramData%\Easyset\00000000\lpu237\lpu.xml 추가.
+  - uninstall 시, %ProgramData%\Easyset\00000000\lpu237 에 추가되는 파일 삭제를 위해 lpu230_config.exe 추가.
+- lpu230_mapper_UM_EN_024.pdf -> lpu230_mapper_UM_EN_025.pdf
+- lpu230_mapper_UM_KOR_024.pdf -> lpu230_mapper_UM_KOR_025.pdf
+- lpu237_setting_file_EN_004.pdf -> lpu237_setting_file_EN_005.pdf
+- lpu237_setting_file_KOR_004.pdf -> lpu237_setting_file_KOR_005.pdf
+
+## 2023.10.24 - lpu230_msr_only_1_8_68.msi
+- 32 bits msr only version.
+- mapper 1.47.0.4 로 업데이트.
+  - i-button 전송 범위 설정 기능 지원. 
+  - advance firmware update mode 지원.
+  - firmware update 중 오류복구의 위한 임시파일 생성 위치를 %ProgramData%\Easyset\00000000\lpu237\data 로 변경.
+  - 설정파일 %ProgramData%\Easyset\00000000\lpu237\lpu.xml 추가.
+  - uninstall 시, %ProgramData%\Easyset\00000000\lpu237 에 추가되는 파일 삭제를 위해 lpu230_config.exe 추가.
+- tg_lpu237_dll.dll v4.0 -> v4.1.
+  - i-button 전송 범위 설정 기능 지원. 
+- tg_lpu237_fw.dll v4.0 -> v4.1.
+  - i-button 전송 범위 설정 기능 지원. 
+- tg_lpu237_ibutton.dll v4.0 -> v4.1.
+  - i-button 전송 범위 설정 기능 지원. 
+- tg_lpu237_tools.dll v4.0 -> v4.1.
+  - i-button 전송 범위 설정 기능 지원. 
+- lpu230_api_tools_UM_KOR_V4.0.pdf -> lpu230_api_tools_UM_KOR_V4.1.pdf
+- lpu230_mapper_UM_EN_024.pdf -> lpu230_mapper_UM_EN_025.pdf
+- lpu230_mapper_UM_KOR_024.pdf -> lpu230_mapper_UM_KOR_025.pdf
+- lpu237_setting_file_EN_004.pdf -> lpu237_setting_file_EN_005.pdf
+- lpu237_setting_file_KOR_004.pdf -> lpu237_setting_file_KOR_005.pdf
 
 ## 2023.09.26 – lpu230_msr_only_1_8_67.msi
 - 32 bits msr only version.

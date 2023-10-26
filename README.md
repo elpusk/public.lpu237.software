@@ -6,17 +6,18 @@ installer package of lpu23x' software.
 * tg_lpu237_x.dll or OPOS 사용시, 이상하면, <span style="color:green">interface 를 USB HID Vendor 로 바꿔보세요.</span>
 
 # information
-* date - 2023.10.24
+* date - 2023.10.26
 * description
   * 정식 release
-    - i-button 전송 범위 설정 기능 지원을 위해 [full 32 bits](./full/x86/lp230_1_8_68.msi) 를 버전 1.8.68로 업데이트.
-    - i-button 전송 범위 설정 기능 지원을 위해 [full 64 bits](./full/x64/lpu230_x64_1_8_68.msi) 를 버전 1.8.68로 업데이트.
-    - i-button 전송 범위 설정 기능 지원을 위해 [mapper only 32 bits](./mapper_only/x86/lpu237_mapper_only_1_47_0.msi) 를  버전 1.47로 업데이트.
-    - i-button 전송 범위 설정 기능 지원을 위해 [mapper only 64 bits](./mapper_only/x64/lpu237_mapper_only_x64_1_47_0.msi) 를  버전 1.47로 업데이트.
-    - i-button 전송 범위 설정 기능 지원을 위해 [msr only 32 bits](./msr_only/x86/lpu230_msr_only_1_8_68.msi) 를 버전 1.8.68로 업데이트.
+    - 2023.10.24 release 한 mapper(lpu230.exe) v1.47.0.4 의 중대한 code missing 으로 긴급 패치.
+    - i-button 전송 범위 설정 기능 지원을 위해 [full 32 bits](./full/x86/lp230_1_8_69.msi) 를 버전 1.8.69로 업데이트.
+    - i-button 전송 범위 설정 기능 지원을 위해 [full 64 bits](./full/x64/lpu230_x64_1_8_69.msi) 를 버전 1.8.69로 업데이트.
+    - i-button 전송 범위 설정 기능 지원을 위해 [mapper only 32 bits](./mapper_only/x86/lpu237_mapper_only_1_47_1.msi) 를  버전 1.47.1로 업데이트.
+    - i-button 전송 범위 설정 기능 지원을 위해 [mapper only 64 bits](./mapper_only/x64/lpu237_mapper_only_x64_1_47_1.msi) 를  버전 1.47.1로 업데이트.
+    - i-button 전송 범위 설정 기능 지원을 위해 [msr only 32 bits](./msr_only/x86/lpu230_msr_only_1_8_69.msi) 를 버전 1.8.69로 업데이트.
 
 * version - 각 버전은 같이 설치 불가. 다른 버전 설치시, 기존 버전 제거 후 , 설치. 같은 버전 끼리만 업데이트.(ex 현재 "full 32 bits" 설치되어 있는데 "full 64 bits" 설치하려면, 기존 것 제거 후, 설치.)
-  * [full 32 bits](./full/x86/lp230_1_8_68.msi) 버전 1.8.68
+  * [full 32 bits](./full/x86/lp230_1_8_69.msi) 버전 1.8.69
     - 지원되는 기능
       - mapper를 통한 설정.
       - MSR & i-button [OPOS](http://monroecs.com/index.htm) service object(이하 SO).
@@ -29,7 +30,7 @@ installer package of lpu23x' software.
     - 포함된 components
       - lpu230 SO v1.8.23(OposLpu230.dll)
       - lpu230 keylock SO v1.14.2(OposLpu230Lock.dll)
-      - Mapper v1.47.0.4
+      - Mapper v1.47.1.4
       - Javapos SO v1.11
       - lpu237 api v4.1(tg_lpu237_dll.dll)
       - lpu237 i-button api v4.1(tg_lpu237_ibutton.dll)
@@ -39,7 +40,7 @@ installer package of lpu23x' software.
       - controller v1.2.0.1( ng_ManagerCtl.exe )
       - service v1.1.0.1(ng_SSS.exe )
       - DDL v1.1 ( ng_DDL_lpu237.dll )
-  * [full 64 bits](./full/x64/lpu230_x64_1_8_68.msi) 버전 1.8.68
+  * [full 64 bits](./full/x64/lpu230_x64_1_8_69.msi) 버전 1.8.69
     - 지원되는 기능
       - mapper를 통한 설정.
       - native MSR application 지원을 위한 64bits win32 dll.
@@ -48,7 +49,7 @@ installer package of lpu23x' software.
       - 사용자 application 은 MSR 과 i-button 을 독립된 장비로 프로그램 가능.
       - Windows service process( session 0, system account)에서 MSR, i-button 또는 firmware application 지원을 위한 dll 사용 <span style="color:red">불가능</span>.
     - 포함된 components
-      - Mapper v1.47.0.4
+      - Mapper v1.47.1.4
       - lpu237 api v4.1(tg_lpu237_dll.dll)
       - lpu237 i-button api v4.1(tg_lpu237_ibutton.dll)
       - lpu237 firmware api v4.1(tg_lpu237_fw.dll)
@@ -57,17 +58,17 @@ installer package of lpu23x' software.
       - controller v1.2.0.1( ng_ManagerCtl.exe )
       - service v1.1.0.1(ng_SSS.exe )
       - DDL v1.1 ( ng_DDL_lpu237.dll )
-  * [mapper only 32 bits](./mapper_only/x86/lpu237_mapper_only_1_47_0.msi) 버전 1.47.
+  * [mapper only 32 bits](./mapper_only/x86/lpu237_mapper_only_1_47_1.msi) 버전 1.47.1.
     - 지원되는 기능
       - mapper를 통한 설정.
     - 포함된 component
-      - Mapper v1.47.0.4
-  * [mapper only 64 bits](./mapper_only/x64/lpu237_mapper_only_x64_1_47_0.msi) 버전 1.47.
+      - Mapper v1.47.1.4
+  * [mapper only 64 bits](./mapper_only/x64/lpu237_mapper_only_x64_1_47_1.msi) 버전 1.47.1.
     - 지원되는 기능
       - mapper를 통한 설정.
     - 포함된 component
-      - Mapper v1.47.0.4
-  * [msr only 32 bits](./msr_only/x86/lpu230_msr_only_1_8_68.msi) 버전 1.8.68
+      - Mapper v1.47.1.4
+  * [msr only 32 bits](./msr_only/x86/lpu230_msr_only_1_8_69.msi) 버전 1.8.69
     - 주의 : <span style="color:red">MSR SO 는 독립적으로 장비에 접근하기 때문에, 프로그래밍 설계방식에 따라 tg_lpu237_tools.dll 사용시 동기화 문제 발생 소지가 있음.</span>.
     - 지원되는 기능
       - mapper를 통한 설정.
@@ -80,7 +81,7 @@ installer package of lpu23x' software.
       - Windows service process( session 0, system account)에서 firmware application 지원을 위한 dll 사용 <span style="color:red">불가능</span>.
     - 포함된 components
       - lpu230 SO v1.8.22
-      - Mapper v1.47.0.4
+      - Mapper v1.47.1.4
       - Javapos SO v1.11
       - lpu237 api v4.1(tg_lpu237_dll.dll)
       - lpu237 i-button api v4.1(tg_lpu237_ibutton.dll)

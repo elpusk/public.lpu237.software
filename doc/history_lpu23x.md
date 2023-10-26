@@ -1,5 +1,13 @@
 # lpu23x windows software history
 
+## 2023.10.24 - mapper(lpu230.exe) v1.47.0.4 의 중대한 code missing 으로 v1.47.1.4 로 업데이트.
+ - 32 bits full version. lp230_1_8_68.msi -> lp230_1_8_69.msi 로 업데이트.
+ - 64 bits full version. lpu230_x64_1_8_68.msi -> lpu230_x64_1_8_69.msi 로 업데이트.
+ - 32 bits mapper only version. lpu237_mapper_only_1_47_0.msi -> lpu237_mapper_only_1_47_1.msi 로 업데이트.
+ - 64 bits mapper only version. lpu237_mapper_only_x64_1_47_0.msi -> lpu237_mapper_only_x64_1_47_1.msi 로 업데이트.
+ - 32 bits msr only version. lpu230_msr_only_1_8_68.msi -> lpu230_msr_only_1_8_69.msi 로 업데이트.
+ - i-button range 선택(1.47.0.4에서 추가)하는 dialog 에서 색깔변경을 위해 생성한 windows brush resource 를 제거하는 코드가 없어서, brush 누수가 누적되면 mapper 가 집에 감 -> 수정됨.
+
 ## 2023.10.24 - lp230_1_8_68.msi
 - 32 bits full version.
 - mapper 1.47.0.4 로 업데이트.

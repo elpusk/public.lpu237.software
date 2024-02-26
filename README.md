@@ -94,13 +94,14 @@ installer package of lpu23x' software.
   * lpu230_update : 고객 특별 요청으로 2019.12.11 부터 배포. Mapper 설치 없이, rom 파일로, lpu237 firmware 를 업데이트하는 프로그램.
     - 지원되는 기능
       - lpu237 firmware 업데이트.
+      - [더 자세한 내용은 여기](https://github.com/elpusk/public.lpu237.firmware)
     - 포함된 components
-	    - lpu230_update.exe v1.3 : 프로그램 본체.
+	    - lpu230_update.exe v1.4 : 프로그램 본체.( 2024.02.26 v1.4로 업데이트)
 	    - ng_DDL_hid.dll :  lpu230_update.exe 에서 사용하는 라이브러리.
 	    - tg_rom.dll  :  lpu230_update.exe 에서 사용하는 라이브러리.
-	    - lpu230_update_UM_EN_004.pdf : 프로그램 사용 설명서 영문.
-	    - lpu230_update_UM_KOR_004.pdf : 프로그램 사용 설명서 국문.
-      - lpu230_update_v1.3.zip : 압축파일( lpu230_update.exe, ng_DDL_hid.dll,tg_rom.dll, lpu230_update_UM_EN_004.pdf 과 lpu230_update_UM_KOR_004.pdf )
+	    - lpu230_update_UM_EN_005.pdf : 프로그램 사용 설명서 영문.
+	    - lpu230_update_UM_KOR_005.pdf : 프로그램 사용 설명서 국문.
+      - lpu230_update_v1.4.zip : 압축파일( lpu230_update.exe, ng_DDL_hid.dll,tg_rom.dll, lpu230_update_UM_EN_005.pdf 과 lpu230_update_UM_KOR_005.pdf )
 
   * 기타
     - 문서

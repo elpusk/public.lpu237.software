@@ -1,5 +1,30 @@
 # lpu23x windows software history
 
+## 2024.02.28 - lp230_1_8_70.msi
+ - 32 bits full version. lp230_1_8_69.msi -> lp230_1_8_70.msi 로 업데이트.
+ - 64 bits full version. lpu230_x64_1_8_69.msi -> lpu230_x64_1_8_70.msi 로 업데이트.
+ - 32 bits mapper only version. lpu237_mapper_only_1_47_1.msi -> lpu237_mapper_only_1_48_0.msi 로 업데이트.
+ - 64 bits mapper only version. lpu237_mapper_only_x64_1_47_1.msi -> lpu237_mapper_only_x64_1_48_0.msi 로 업데이트.
+ - 32 bits msr only version. lpu230_msr_only_1_8_69.msi -> lpu230_msr_only_1_8_70.msi 로 업데이트.
+ - mapper 1.48.0.4 로 업데이트.
+ - mmd1100 decoder iso mode 변경 지원. 
+ - tg_lpu237_dll.dll v4.1 -> v4.2.
+   - 공용 라이브러리 업데이트에 따른 단순 버전업, 리빌드.
+ - tg_lpu237_fw.dll v4.1 -> v4.2.
+   - mmd1100 decoder iso mode 변경 지원을 위해 추가된 system parameter 지원.
+ - tg_lpu237_ibutton.dll v4.1 -> v4.2.
+   - 공용 라이브러리 업데이트에 따른 단순 버전업, 리빌드.
+ - tg_lpu237_tools.dll v4.1 -> v4.2.
+   - 설정 변경 후, 자동 decoder 검출, 초기화 기능 추가.
+ - lpu230_api_tools_UM_KOR_V4.1.pdf -> lpu230_api_tools_UM_KOR_V4.2.pdf
+ - lpu230_mapper_UM_EN_025.pdf -> lpu230_mapper_UM_EN_026.pdf
+ - lpu230_mapper_UM_KOR_026.pdf -> lpu230_mapper_UM_KOR_026.pdf
+ - lpu237_setting_file_EN_005.pdf -> lpu237_setting_file_EN_006.pdf
+ - lpu237_setting_file_KOR_005.pdf -> lpu237_setting_file_KOR_006.pdf
+ - lpu230_api_UM_EN_003.pdf -> lpu230_api_UM_EN_004.pdf
+ - lpu230_fw_api_UM_KOR_006.pdf -> lpu230_fw_api_UM_KOR_008.pdf
+ - lpu237_api_ibutton_UM_EN_004.pdf -> lpu237_api_ibutton_UM_EN_005.pdf
+
 ## 2023.10.24 - mapper(lpu230.exe) v1.47.0.4 의 중대한 code missing 으로 v1.47.1.4 로 업데이트.
  - 32 bits full version. lp230_1_8_68.msi -> lp230_1_8_69.msi 로 업데이트.
  - 64 bits full version. lpu230_x64_1_8_68.msi -> lpu230_x64_1_8_69.msi 로 업데이트.

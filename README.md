@@ -6,18 +6,12 @@ installer package of lpu23x' software.
 * tg_lpu237_x.dll or OPOS 사용시, 이상하면, <span style="color:green">interface 를 USB HID Vendor 로 바꿔보세요.</span>
 
 # information
-* date - 2024.02.28
+* date - 2024.04.16
 * description
   * 정식 release
-    - mmd1100 decoder iso mode 변경 지원을 위해 mapper(lpu230.exe) v1.48.0.4 로 업데이트.
-    - mmd1100 decoder iso mode 변경 지원을 위해 추가된 system parameter 지원을 위해 tg_lpu237_fw.dll v4.2 로 업데이트.
-    - 설정 변경 후, 자동 decoder 검출, 초기화 기능 추가을 위한 tg_lpu237_tools.dll v4.2로 업데이트.
-    - 공용 라이브러리 업데이트에 따른, tg_lpu237_dll.dll, tg_lpu237_ibutton.dll 버전만 v4.2 로 업데이트.(단순 리빌드) 
-    - i-button 전송 범위 설정 기능 지원을 위해 [full 32 bits](./full/x86/lp230_1_8_70.msi) 를 버전 1.8.70로 업데이트.
-    - i-button 전송 범위 설정 기능 지원을 위해 [full 64 bits](./full/x64/lpu230_x64_1_8_70.msi) 를 버전 1.8.70로 업데이트.
-    - i-button 전송 범위 설정 기능 지원을 위해 [mapper only 32 bits](./mapper_only/x86/lpu237_mapper_only_1_48_0.msi) 를  버전 1.48.0로 업데이트.
-    - i-button 전송 범위 설정 기능 지원을 위해 [mapper only 64 bits](./mapper_only/x64/lpu237_mapper_only_x64_1_48_0.msi) 를  버전 1.48.0로 업데이트.
-    - i-button 전송 범위 설정 기능 지원을 위해 [msr only 32 bits](./msr_only/x86/lpu230_msr_only_1_8_70.msi) 를 버전 1.8.70로 업데이트.
+    - lpu237 himalia device 지원을 위해 mapper(lpu230.exe) v1.49.0.4 로 업데이트.
+    - himalia device 지원을 위해 [mapper only 32 bits](./mapper_only/x86/lpu237_mapper_only_1_49_0.msi) 를  버전 1.49.0로 업데이트.
+    - himalia device 지원을 위해 [mapper only 64 bits](./mapper_only/x64/lpu237_mapper_only_x64_1_49_0.msi) 를  버전 1.49.0로 업데이트.
 
 * version - 각 버전은 같이 설치 불가. 다른 버전 설치시, 기존 버전 제거 후 , 설치. 같은 버전 끼리만 업데이트.(ex 현재 "full 32 bits" 설치되어 있는데 "full 64 bits" 설치하려면, 기존 것 제거 후, 설치.)
   * [full 32 bits](./full/x86/lp230_1_8_70.msi) 버전 1.8.70
@@ -61,16 +55,16 @@ installer package of lpu23x' software.
       - controller v1.2.0.1( ng_ManagerCtl.exe )
       - service v1.1.0.1(ng_SSS.exe )
       - DDL v1.1 ( ng_DDL_lpu237.dll )
-  * [mapper only 32 bits](./mapper_only/x86/lpu237_mapper_only_1_48_0.msi) 버전 1.48.0.
+  * [mapper only 32 bits](./mapper_only/x86/lpu237_mapper_only_1_49_0.msi) 버전 1.49.0.
     - 지원되는 기능
       - mapper를 통한 설정.
     - 포함된 component
-      - Mapper v1.48.0.4
-  * [mapper only 64 bits](./mapper_only/x64/lpu237_mapper_only_x64_1_48_0.msi) 버전 1.48.0.
+      - Mapper v1.49.0.4
+  * [mapper only 64 bits](./mapper_only/x64/lpu237_mapper_only_x64_1_49_0.msi) 버전 1.49.0.
     - 지원되는 기능
       - mapper를 통한 설정.
     - 포함된 component
-      - Mapper v1.48.0.4
+      - Mapper v1.49.0.4
   * [msr only 32 bits](./msr_only/x86/lpu230_msr_only_1_8_70.msi) 버전 1.8.70
     - 주의 : <span style="color:red">MSR SO 는 독립적으로 장비에 접근하기 때문에, 프로그래밍 설계방식에 따라 tg_lpu237_tools.dll 사용시 동기화 문제 발생 소지가 있음.</span>.
     - 지원되는 기능

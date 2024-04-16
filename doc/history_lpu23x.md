@@ -1,5 +1,8 @@
 # lpu23x windows software history
 
+## 2024.04.16 - lpu237_mapper_only_1_49_0.msi, lpu237_mapper_only_x64_1_49_0.msi
+ - lpu237 himalia device 지원을 위해 mapper 를 1.49.0.1 로 업데이트.
+
 ## 2024.02.28 - lp230_1_8_70.msi
  - 32 bits full version. lp230_1_8_69.msi -> lp230_1_8_70.msi 로 업데이트.
  - 64 bits full version. lpu230_x64_1_8_69.msi -> lpu230_x64_1_8_70.msi 로 업데이트.

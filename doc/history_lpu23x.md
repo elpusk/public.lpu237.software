@@ -1,5 +1,12 @@
 # lpu23x windows software history
 
+## 2024.04.16 - lpu230_1_8_71.msi, lpu230_x64_1_8_71.msi, lpu230_msr_only_1_8_71.msi
+ - lpu237 himalia device 지원을 위해 mapper 를 1.49.0.1 로 업데이트.
+ - lpu237 himalia device 지원을 위해 tg_lpu237_dll.dll v4.2 -> v4.3.
+ - lpu237 himalia device 지원을 위해 tg_lpu237_fw.dll v4.2 -> v4.3.
+ - lpu237 himalia device 지원을 위해 tg_lpu237_ibutton.dll v4.2 -> v4.3.
+ - lpu237 himalia device 지원을 위해 tg_lpu237_tools.dll v4.2 -> v4.3.
+
 ## 2024.04.16 - lpu237_mapper_only_1_49_0.msi, lpu237_mapper_only_x64_1_49_0.msi
  - lpu237 himalia device 지원을 위해 mapper 를 1.49.0.1 로 업데이트.
 

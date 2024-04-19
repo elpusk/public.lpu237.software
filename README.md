@@ -6,16 +6,16 @@ installer package of lpu23x' software.
 * tg_lpu237_x.dll or OPOS 사용시, 이상하면, <span style="color:green">interface 를 USB HID Vendor 로 바꿔보세요.</span>
 
 # information
-* date - 2024.04.18
+* date - 2024.04.19
 * description
   * 정식 release
-    - lpu237 himalia device 지원을 위해 mapper(lpu230.exe) v1.49.0.4 로 업데이트.
-    - himalia device 지원을 위해 [full 32 bits](./full/x86/lpu230_1_8_71.msi) 를  버전 1.8.71로 업데이트.
-    - himalia device 지원을 위해 [full 64 bits](./full/x64/lpu230_x64_1_8_71.msi) 를  버전 1.8.71로 업데이트.
-    - himalia device 지원을 위해 [msr only 32 bits](./msr_only/x86/lpu230_msr_only_1_8_71.msi) 를  버전 1.8.71로 업데이트.
+    - ng_DevManager.exe 에서 LPARAM 타입을 DWORD 로 강제 타입 캐스팅해서 발생한 문제 해결을 위해 ng_DevManager.exe 버전을 v1.6 에서 v1.7로 업데이트.
+    - 상기 이유로 [full 32 bits](./full/x86/lpu230_1_8_72.msi) 를  버전 1.8.72로 업데이트.
+    - 상기 이유로 [full 64 bits](./full/x64/lpu230_x64_1_8_72.msi) 를  버전 1.8.72로 업데이트.
+    - 상기 이유로 [msr only 32 bits](./msr_only/x86/lpu230_msr_only_1_8_72.msi) 를  버전 1.8.72로 업데이트.
 
 * version - 각 버전은 같이 설치 불가. 다른 버전 설치시, 기존 버전 제거 후 , 설치. 같은 버전 끼리만 업데이트.(ex 현재 "full 32 bits" 설치되어 있는데 "full 64 bits" 설치하려면, 기존 것 제거 후, 설치.)
-  * [full 32 bits](./full/x86/lpu230_1_8_71.msi) 버전 1.8.71
+  * [full 32 bits](./full/x86/lpu230_1_8_72.msi) 버전 1.8.72
     - 지원되는 기능
       - mapper를 통한 설정.
       - MSR & i-button [OPOS](http://monroecs.com/index.htm) service object(이하 SO).
@@ -34,11 +34,11 @@ installer package of lpu23x' software.
       - lpu237 i-button api v4.3(tg_lpu237_ibutton.dll)
       - lpu237 firmware api v4.3(tg_lpu237_fw.dll)
       - lpu237 tools api v4.3(tg_lpu237_tools.dll)
-      - manager v1.6( ng_DevManager.exe )
+      - manager v1.7( ng_DevManager.exe )
       - controller v1.2.0.1( ng_ManagerCtl.exe )
       - service v1.1.0.1(ng_SSS.exe )
       - DDL v1.1 ( ng_DDL_lpu237.dll )
-  * [full 64 bits](./full/x64/lpu230_x64_1_8_71.msi) 버전 1.8.71
+  * [full 64 bits](./full/x64/lpu230_x64_1_8_72.msi) 버전 1.8.72
     - 지원되는 기능
       - mapper를 통한 설정.
       - native MSR application 지원을 위한 64bits win32 dll.
@@ -52,7 +52,7 @@ installer package of lpu23x' software.
       - lpu237 i-button api v4.3(tg_lpu237_ibutton.dll)
       - lpu237 firmware api v4.3(tg_lpu237_fw.dll)
       - lpu237 tools api v4.3(tg_lpu237_tools.dll)
-      - manager v1.6( ng_DevManager.exe )
+      - manager v1.7( ng_DevManager.exe )
       - controller v1.2.0.1( ng_ManagerCtl.exe )
       - service v1.1.0.1(ng_SSS.exe )
       - DDL v1.1 ( ng_DDL_lpu237.dll )
@@ -66,7 +66,7 @@ installer package of lpu23x' software.
       - mapper를 통한 설정.
     - 포함된 component
       - Mapper v1.49.0.4
-  * [msr only 32 bits](./msr_only/x86/lpu230_msr_only_1_8_71.msi) 버전 1.8.71
+  * [msr only 32 bits](./msr_only/x86/lpu230_msr_only_1_8_72.msi) 버전 1.8.72
     - 주의 : <span style="color:red">MSR SO 는 독립적으로 장비에 접근하기 때문에, 프로그래밍 설계방식에 따라 tg_lpu237_tools.dll 사용시 동기화 문제 발생 소지가 있음.</span>.
     - 지원되는 기능
       - mapper를 통한 설정.
@@ -85,7 +85,7 @@ installer package of lpu23x' software.
       - lpu237 i-button api v4.3(tg_lpu237_ibutton.dll)
       - lpu237 firmware api v4.3(tg_lpu237_fw.dll)
       - lpu237 tools api v4.3(tg_lpu237_tools.dll)
-      - manager v1.6( ng_DevManager.exe )
+      - manager v1.7( ng_DevManager.exe )
       - controller v1.2.0.1( ng_ManagerCtl.exe )
       - service v1.1.0.1(ng_SSS.exe )
       - DDL v1.1 ( ng_DDL_lpu237.dll )

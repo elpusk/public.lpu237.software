@@ -1,5 +1,13 @@
 # lpu23x windows software history
 
+## 2024.05.13 - lpu230_1_8_73.msi, lpu230_x64_1_8_73.msi, lpu230_msr_only_1_8_73.msi
+ - lpu237 himalia v2.0 부터 추가된 암호화 기능 지원을 위해 tg_lpu237_x.dll 업데이트.
+ - lpu237 himalia 암호화 기능 지원을 위해 ng_DevManager.exe 를 v1.7 -> v1.8.
+ - lpu237 himalia 암호화 기능 지원을 위해 tg_lpu237_dll.dll v4.3 -> v5.0.
+ - lpu237 himalia 암호화 기능 지원을 위해 tg_lpu237_fw.dll v4.3 -> v5.0.
+ - lpu237 himalia 암호화 기능 지원을 위해 tg_lpu237_ibutton.dll v4.3 -> v5.0.
+ - lpu237 himalia 암호화 기능 지원을 위해 tg_lpu237_tools.dll v4.3 -> v5.0.
+
 ## 2024.04.16 - lpu230_1_8_72.msi, lpu230_x64_1_8_72.msi, lpu230_msr_only_1_8_72.msi
  - ng_DevManager.exe 에서 LPARAM 타입을 DWORD 로 강제 타입 캐스팅해서 발생한 문제 해결을 위해 ng_DevManager.exe 버전을 v1.6 에서 v1.7로 업데이트.(x64 에서만 발생하지만 코드 변경이유로 x86 도 업데이트)
  - ng_DevManager.exe 를 v1.6 -> v1.7.

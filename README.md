@@ -1,11 +1,14 @@
 # public.lpu237.software
+
 installer package of lpu23x' software.
 [history](./doc/history_lpu23x.md)
 
 # TIP!
+
 * tg_lpu237_x.dll or OPOS 사용시, 이상하면, <span style="color:green">interface 를 USB HID Vendor 로 바꿔보세요.</span>
 
 # information
+
 * date - 2024.05.13
 * description
   * 정식 release
@@ -15,7 +18,7 @@ installer package of lpu23x' software.
     - 상기 이유로 [msr only 32 bits](./msr_only/x86/lpu230_msr_only_1_8_73.msi) 를  버전 1.8.73로 업데이트.
 
 * version - 각 버전은 같이 설치 불가. 다른 버전 설치시, 기존 버전 제거 후 , 설치. 같은 버전 끼리만 업데이트.(ex 현재 "full 32 bits" 설치되어 있는데 "full 64 bits" 설치하려면, 기존 것 제거 후, 설치.)
-  * [full 32 bits](./full/x86/lpu230_1_8_73.msi) 버전 1.8.73
+  * [full 32 bits](./full/x86/lpu230_1_8_73.msi) 버전 1.8.73, [SBOM-cyclonedx](./full/x86/lp230-wix-sbom-cyclonedx.json), [SBOM-spdx](./full/x86/lp230-wix-sbom-spdx.json)
     - 지원되는 기능
       - mapper를 통한 설정.
       - MSR & i-button [OPOS](http://monroecs.com/index.htm) service object(이하 SO).
@@ -38,7 +41,7 @@ installer package of lpu23x' software.
       - controller v1.2.0.1( ng_ManagerCtl.exe )
       - service v1.1.0.1(ng_SSS.exe )
       - DDL v1.1 ( ng_DDL_lpu237.dll )
-  * [full 64 bits](./full/x64/lpu230_x64_1_8_73.msi) 버전 1.8.73
+  * [full 64 bits](./full/x64/lpu230_x64_1_8_73.msi) 버전 1.8.73, [SBOM-cyclonedx](./full/x64/lp230-x64-wix-sbom-cyclonedx.json), [SBOM-spdx](./full/x64/lp230-x64-wix-sbom-spdx.json)
     - 지원되는 기능
       - mapper를 통한 설정.
       - native MSR application 지원을 위한 64bits win32 dll.
@@ -56,17 +59,17 @@ installer package of lpu23x' software.
       - controller v1.2.0.1( ng_ManagerCtl.exe )
       - service v1.1.0.1(ng_SSS.exe )
       - DDL v1.1 ( ng_DDL_lpu237.dll )
-  * [mapper only 32 bits](./mapper_only/x86/lpu237_mapper_only_1_49_0.msi) 버전 1.49.0.
+  * [mapper only 32 bits](./mapper_only/x86/lpu237_mapper_only_1_49_0.msi) 버전 1.49.0, [SBOM-cyclonedx](./mapper_only/x86/lpu237-mapper-only-wix-sbom-cyclonedx.json),  [SBOM-spdx](./mapper_only/x86/lpu237-mapper-only-wix-sbom-spdx.json)
     - 지원되는 기능
       - mapper를 통한 설정.
     - 포함된 component
       - Mapper v1.49.0.4
-  * [mapper only 64 bits](./mapper_only/x64/lpu237_mapper_only_x64_1_49_0.msi) 버전 1.49.0.
+  * [mapper only 64 bits](./mapper_only/x64/lpu237_mapper_only_x64_1_49_0.msi) 버전 1.49.0,  [SBOM-cyclonedx](./mapper_only/x64/lp237-mapper-only-x64-wix-sbom-cyclonedx.json),  [SBOM-spdx](./mapper_only/x64/lp237-mapper-only-x64-wix-sbom-spdx.json)
     - 지원되는 기능
       - mapper를 통한 설정.
     - 포함된 component
       - Mapper v1.49.0.4
-  * [msr only 32 bits](./msr_only/x86/lpu230_msr_only_1_8_73.msi) 버전 1.8.73
+  * [msr only 32 bits](./msr_only/x86/lpu230_msr_only_1_8_73.msi) 버전 1.8.73,  [SBOM-cyclonedx](./msr_only/x86/lp230-msr-only-wix-sbom-cyclonedx.json),  [SBOM-spdx](./msr_only/x86/lp230-msr-only-wix-sbom-spdx.json)
     - 주의 : <span style="color:red">MSR SO 는 독립적으로 장비에 접근하기 때문에, 프로그래밍 설계방식에 따라 tg_lpu237_tools.dll 사용시 동기화 문제 발생 소지가 있음.</span>.
     - 지원되는 기능
       - mapper를 통한 설정.
@@ -109,6 +112,7 @@ installer package of lpu23x' software.
         - lpu230_fw_api_UM_EN_007.pdf 에서 lpu230_fw_api_UM_EN_008.pdf 으로 업데이트됨.
 
 # etc
+
 * mapper 1.46(이하 mapper) 을 가지고, lpu237 를 lpu238 로 변경 하기.(비권장)
   - 확장자가 rom 인 파일(이하 rom 파일)로 업데이트를 하면, 안정성을 위해 동일한 system name 과 update condition 이 만족 할 때만 업데이트를 허용 합니다.
   - lpu237 은 서로 다른 하드웨어를 기반으로한 callisto, ganymede 라는 두 개의 system name이 있고, lpu238 은 lpu237 의  ganymede 와 하드웨어는 동일 하지만, 전혀 다른 interface 를 가진 장비로 PC에서 인식하고, europa 라는 system name 를 갖습니다. 따라서 mapper 에서 rom 파일로  lpu237 를 lpu238 로 변경은 불가능 합니다. 이런 안전성을 무시하고, mapper에서 , lpu237 를 lpu238 로 변경하기 위해서는 아래와 같이.......

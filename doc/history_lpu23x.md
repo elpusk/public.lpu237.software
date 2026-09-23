@@ -1,5 +1,13 @@
 # lpu23x windows software history
 
+## 2026.09.23 - lpu230_1_8_74.msi, lpu230_x64_1_8_74.msi, lpu230_msr_only_1_8_74.msi, lpu237_mapper_only_1_50_0.msi, lpu237_mapper_only_x64_1_50_0.msi
+ - lpu238 elara 지원을 위해 mapper 및 tg_lpu237_x.dll 업데이트.
+ - mapper(lpu230.exe) lpu238 elara 지원을 위해 v1.49.0.4 -> v1.50.0.4
+ - lpu238 elara 지원을 위해 tg_lpu237_dll.dll v5.0 -> v5.1.
+ - lpu238 elara 지원을 위해 tg_lpu237_fw.dll v5.0 -> v5.1.
+ - lpu238 elara 지원을 위해 tg_lpu237_ibutton.dll v5.0 -> v5.1.
+ - lpu238 elara 지원을 위해 tg_lpu237_tools.dll v5.0 -> v5.1.
+
 ## 2024.05.13 - lpu230_1_8_73.msi, lpu230_x64_1_8_73.msi, lpu230_msr_only_1_8_73.msi
  - lpu237 himalia v2.0 부터 추가된 암호화 기능 지원을 위해 tg_lpu237_x.dll 업데이트.
  - lpu237 himalia 암호화 기능 지원을 위해 ng_DevManager.exe 를 v1.7 -> v1.8.

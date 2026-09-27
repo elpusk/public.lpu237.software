@@ -8,5 +8,15 @@
 | **lpu230_1_8_73.msi** | `lpu230.exe` (mapper)   | 테스트 불가        | 정상            | 정상         | 정상                      | **디코더 표시 오류**<br>FW update 후 interface 자동 설정 오류 |
 |                       | `tg_lpu23_dll.dll`      | 테스트 불가        | 정상            | 정상         | 정상                      | 정상                                              |
 |                       | `tg_lpu237_ibutton.dll` | 테스트 불가        | 정상            | 정상         | 테스트 불가                  | 테스트 불가                                          |
-|                       | `tg_lpu237_fw.dll`      | 테스트 불가        | 정상            | 정상         | 정상                      | 정상                                              |
+|                       | `tg_lpu237_fw.dll`      | 테스트 불가        | 정상            | 정상         | 정상                      | recover 오류                                              |
+|                       | `tg_lpu237_tools.dll`   | 테스트 불가        | 정상            | 정상         | **iButton range 설정 오류** | **지원 interface 오류**<br>iButton 미지원 오류           |
+| **lpu230_1_8_72.msi** | `lpu230.exe` (mapper)   | 테스트 불가        | 정상            | 정상         | 정상                      | **디코더 표시 오류**<br>FW update 후 interface 자동 설정 오류 |
+|                       | `tg_lpu23_dll.dll`      | 테스트 불가        | 정상            | 정상         | 정상                      | 정상                                              |
+|                       | `tg_lpu237_ibutton.dll` | 테스트 불가        | 정상            | 정상         | 테스트 불가                  | 테스트 불가                                          |
+|                       | `tg_lpu237_fw.dll`      | 테스트 불가        | 정상            | 정상         | 정상                      | recover 오류                                              |
+|                       | `tg_lpu237_tools.dll`   | 테스트 불가        | 정상            | 정상         | **iButton range 설정 오류** | **지원 interface 오류**<br>iButton 미지원 오류           |
+| **lpu230_1_8_71.msi** | `lpu230.exe` (mapper)   | 테스트 불가        | 정상            | 정상         | 정상                      | **디코더 표시 오류**<br>FW update 후 interface 자동 설정 오류 |
+|                       | `tg_lpu23_dll.dll`      | 테스트 불가        | 정상            | 정상         | 정상                      | 정상                                              |
+|                       | `tg_lpu237_ibutton.dll` | 테스트 불가        | 정상            | 정상         | 테스트 불가                  | 테스트 불가                                          |
+|                       | `tg_lpu237_fw.dll`      | 테스트 불가        | 정상            | 정상         | 정상                      | recover 오류                                              |
 |                       | `tg_lpu237_tools.dll`   | 테스트 불가        | 정상            | 정상         | **iButton range 설정 오류** | **지원 interface 오류**<br>iButton 미지원 오류           |

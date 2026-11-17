@@ -15,8 +15,8 @@ installer package of lpu23x' software.
     - lp23x OPOS Service Object Physical & Logical Devie Name 변경 지원을 위한 새로운 lpu230_opos.exe 프로그램 추가를 위한 업데이트.
     - Physical & Logical Devie Name 변경 지원을 위한 lpu230 MSR SO(OposLpu230.dll) 업데이트.
     - Physical & Logical Devie Name 변경 지원을 위한 lpu230 keylock SO(OposLpu230Lock.dll) 업데이트.
-    - `msiexec /i lpu230.msi /qn /norestart` 사용자 개입 없는 설치 지원을 위한 업데이트.
-    - `msiexec /x lpu230.msi /qn /norestart` 사용자 개입 없는 제거 지원을 위한 업데이트.
+    - `msiexec /i lpu230_1_8_75.msi /qn /norestart` 사용자 개입 없는 설치 지원을 위한 업데이트.
+    - `msiexec /x lpu230_1_8_75.msi /qn /norestart` 사용자 개입 없는 제거 지원을 위한 업데이트.
     - 설치파일을 마우스로 우클릭하여 "repair로 실행시 오류 수정을 위한 업데이트.
     - 상기 이유로 [full 32 bits](./full/x86/lpu230_1_8_75.msi) 를  버전 1.8.75로 업데이트.
 

@@ -12,13 +12,31 @@ installer package of lpu23x' software.
 * date - 2026.11.17
 * description
   * 정식 release
-    - lp23x OPOS Service Object Physical & Logical Devie Name 변경 지원을 위한 새로운 lpu230_opos.exe 프로그램 추가를 위한 업데이트.
-    - Physical & Logical Devie Name 변경 지원을 위한 lpu230 MSR SO(OposLpu230.dll) 업데이트.
-    - Physical & Logical Devie Name 변경 지원을 위한 lpu230 keylock SO(OposLpu230Lock.dll) 업데이트.
-    - `msiexec /i lpu230_1_8_75.msi /qn /norestart` 사용자 개입 없는 설치 지원을 위한 업데이트.
-    - `msiexec /x lpu230_1_8_75.msi /qn /norestart` 사용자 개입 없는 제거 지원을 위한 업데이트.
-    - 설치파일을 마우스로 우클릭하여 "repair로 실행시 오류 수정을 위한 업데이트.
-    - 상기 이유로 [full 32 bits](./full/x86/lpu230_1_8_75.msi) 를  버전 1.8.75로 업데이트.
+    - [full 32 bits](./full/x86/lpu230_1_8_75.msi) 를  버전 1.8.75로 업데이트.
+      - lp23x OPOS Service Object Physical & Logical Devie Name 변경 지원을 위한 새로운 lpu230_opos.exe 프로그램 추가를 위한 업데이트.
+      - Physical & Logical Devie Name 변경 지원을 위한 lpu230 MSR SO(OposLpu230.dll) 업데이트.
+      - Physical & Logical Devie Name 변경 지원을 위한 lpu230 keylock SO(OposLpu230Lock.dll) 업데이트.
+      - `msiexec /i lpu230_1_8_75.msi /qn /norestart` 사용자 개입 없는 설치 지원을 위한 업데이트.
+      - `msiexec /x lpu230_1_8_75.msi /qn /norestart` 사용자 개입 없는 제거 지원을 위한 업데이트.
+      - 설치파일을 마우스로 우클릭하여 "repair로 실행시 오류 수정을 위한 업데이트.
+
+    - [full 64 bits](./full/x64/lpu230_x64_1_8_75.msi) 를  버전 1.8.75로 업데이트.
+      - `msiexec /i lpu230_x64_1_8_75.msi /qn /norestart` 사용자 개입 없는 설치 지원을 위한 업데이트.
+      - `msiexec /x lpu230_x64_1_8_75.msi /qn /norestart` 사용자 개입 없는 제거 지원을 위한 업데이트.
+      - 설치파일을 마우스로 우클릭하여 "repair로 실행시 오류 수정을 위한 업데이트.
+      - mapper 프로그램 변경 없이 설치 script 변경.
+
+    - [mapper only 32 bits](./mapper_only/x86/lpu237_mapper_only_1_50_1.msi) 를  버전 1.50.1로 업데이트.
+      - `msiexec /i lpu237_mapper_only_1_50_1.msi /qn /norestart` 사용자 개입 없는 설치 지원을 위한 업데이트.
+      - `msiexec /x lpu237_mapper_only_1_50_1.msi /qn /norestart` 사용자 개입 없는 제거 지원을 위한 업데이트.
+      - 설치파일을 마우스로 우클릭하여 "repair로 실행시 오류 수정을 위한 업데이트.
+      - mapper 프로그램 변경 없이 설치 script 변경.
+
+    - [mapper only 64 bits](./mapper_only/x64/lpu237_mapper_only_x64_1_50_1.msi) 를  버전 1.50.1로 업데이트.
+      - `msiexec /i lpu237_mapper_only_x64_1_50_1.msi /qn /norestart` 사용자 개입 없는 설치 지원을 위한 업데이트.
+      - `msiexec /x lpu237_mapper_only_x64_1_50_1.msi /qn /norestart` 사용자 개입 없는 제거 지원을 위한 업데이트.
+      - 설치파일을 마우스로 우클릭하여 "repair로 실행시 오류 수정을 위한 업데이트.
+      - mapper 프로그램 변경 없이 설치 script 변경.
 
 * version - 각 버전은 같이 설치 불가. 다른 버전 설치시, 기존 버전 제거 후 , 설치. 같은 버전 끼리만 업데이트.(ex 현재 "full 32 bits" 설치되어 있는데 "full 64 bits" 설치하려면, 기존 것 제거 후, 설치.)
   * [full 32 bits](./full/x86/lpu230_1_8_75.msi) 버전 1.8.75, [SBOM-cyclonedx](./full/x86/lp230-wix-sbom-cyclonedx.json), [SBOM-spdx](./full/x86/lp230-wix-sbom-spdx.json)
@@ -45,7 +63,7 @@ installer package of lpu23x' software.
       - service v1.1.0.1(ng_SSS.exe )
       - DDL v1.1 ( ng_DDL_lpu237.dll )
       - lpu23x opos Physical & Logical Devie Name 변경 v1.0(lpu230_opos.exe)
-  * [full 64 bits](./full/x64/lpu230_x64_1_8_74.msi) 버전 1.8.73, [SBOM-cyclonedx](./full/x64/lp230-x64-wix-sbom-cyclonedx.json), [SBOM-spdx](./full/x64/lp230-x64-wix-sbom-spdx.json)
+  * [full 64 bits](./full/x64/lpu230_x64_1_8_75.msi) 버전 1.8.75, [SBOM-cyclonedx](./full/x64/lp230-x64-wix-sbom-cyclonedx.json), [SBOM-spdx](./full/x64/lp230-x64-wix-sbom-spdx.json)
     - 지원되는 기능
       - mapper를 통한 설정.
       - native MSR application 지원을 위한 64bits win32 dll.
@@ -63,12 +81,12 @@ installer package of lpu23x' software.
       - controller v1.2.0.1( ng_ManagerCtl.exe )
       - service v1.1.0.1(ng_SSS.exe )
       - DDL v1.1 ( ng_DDL_lpu237.dll )
-  * [mapper only 32 bits](./mapper_only/x86/lpu237_mapper_only_1_50_0.msi) 버전 1.50.0, [SBOM-cyclonedx](./mapper_only/x86/lpu237-mapper-only-wix-sbom-cyclonedx.json),  [SBOM-spdx](./mapper_only/x86/lpu237-mapper-only-wix-sbom-spdx.json)
+  * [mapper only 32 bits](./mapper_only/x86/lpu237_mapper_only_1_50_1.msi) 버전 1.50.1, [SBOM-cyclonedx](./mapper_only/x86/lpu237-mapper-only-wix-sbom-cyclonedx.json),  [SBOM-spdx](./mapper_only/x86/lpu237-mapper-only-wix-sbom-spdx.json)
     - 지원되는 기능
       - mapper를 통한 설정.
     - 포함된 component
       - Mapper v1.50.0.4
-  * [mapper only 64 bits](./mapper_only/x64/lpu237_mapper_only_x64_1_50_0.msi) 버전 1.50.0,  [SBOM-cyclonedx](./mapper_only/x64/lp237-mapper-only-x64-wix-sbom-cyclonedx.json),  [SBOM-spdx](./mapper_only/x64/lp237-mapper-only-x64-wix-sbom-spdx.json)
+  * [mapper only 64 bits](./mapper_only/x64/lpu237_mapper_only_x64_1_50_1.msi) 버전 1.50.1,  [SBOM-cyclonedx](./mapper_only/x64/lp237-mapper-only-x64-wix-sbom-cyclonedx.json),  [SBOM-spdx](./mapper_only/x64/lp237-mapper-only-x64-wix-sbom-spdx.json)
     - 지원되는 기능
       - mapper를 통한 설정.
     - 포함된 component

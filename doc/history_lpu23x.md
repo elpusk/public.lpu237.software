@@ -1,5 +1,11 @@
 # lpu23x windows software history
 
+## 2026.11.17 - lpu230_x64_1_8_75.msi, lpu237_mapper_only_1_50_1.msi, lpu237_mapper_only_x64_1_50_1.msi
+
+- `msiexec /i lpu230_x64_1_8_75.msi /qn /norestart` 사용자 개입 없는 설치 지원
+- `msiexec /x lpu230_x64_1_8_75.msi /qn /norestart` 사용자 개입 없는 제거 지원
+- 설치파일을 마우스로 우클릭하여 "repair로 실행시 오류 수정
+
 ## 2026.11.17 - lpu230_1_8_75.msi
 
 - lp23x OPOS Service Object Physical & Logical Devie Name 변경 지원을 위한 새로운 lpu230_opos.exe v1.0 프로그램 추가.

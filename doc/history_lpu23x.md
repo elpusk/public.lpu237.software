@@ -1,5 +1,14 @@
 # lpu23x windows software history
 
+## 2026.11.17 - lpu230_1_8_75.msi
+
+- lp23x OPOS Service Object Physical & Logical Devie Name 변경 지원을 위한 새로운 lpu230_opos.exe v1.0 프로그램 추가.
+- Physical & Logical Devie Name 변경 지원을 위한 lpu230 MSR SO(OposLpu230.dll) v1.8.23 -> v1.8.24
+- Physical & Logical Devie Name 변경 지원을 위한 lpu230 keylock SO(OposLpu230.dll) v1.14.2 -> v1.14.3
+- `msiexec /i lpu230.msi /qn /norestart` 사용자 개입 없는 설치 지원
+- `msiexec /x lpu230.msi /qn /norestart` 사용자 개입 없는 제거 지원
+- 설치파일을 마우스로 우클릭하여 "repair로 실행시 오류 수정
+
 ## 2026.09.23 - lpu230_1_8_74.msi, lpu230_x64_1_8_74.msi, lpu230_msr_only_1_8_74.msi, lpu237_mapper_only_1_50_0.msi, lpu237_mapper_only_x64_1_50_0.msi
  - lpu238 elara 지원을 위해 mapper 및 tg_lpu237_x.dll 업데이트.
  - mapper(lpu230.exe) lpu238 elara 지원을 위해 v1.49.0.4 -> v1.50.0.4

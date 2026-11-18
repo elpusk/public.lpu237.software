@@ -1,9 +1,21 @@
 # lpu23x windows software history
 
+## 2026.11.18 - lpu230_msr_only_1_8_75.msi
+
+- lp23x OPOS Service Object Physical & Logical Devie Name 변경 지원을 위한 새로운 lpu230_opos.exe v1.1 프로그램 추가. : MSR only installer 의 경우 keylock SO 가 설치되지 않아, lpu230_opos.exe v1.0 을 실행 시키면, 오류 나는 문제 해결를 위해, MSR 또는 keylock SO 중 하나만 설치되어 있어도, 정상 실행 가능하도록 v1.1 로 수정. lpu230_opos.exe 가 설치되는 다른 기배포 installer 의 경우, keylock SO 도 설치되므로, 다른 기배포 installer 의 lpu230_opos.exe 은 그대로 v1.0 유지. 다음 업데이트에 v1.1 포함 예약만.
+- Physical & Logical Devie Name 변경 지원을 위한 lpu230 MSR SO(OposLpu230.dll) v1.8.23 -> v1.8.24
+- `msiexec /i lpu230_msr_only_1_8_75.msi /qn /norestart` 사용자 개입 없는 설치 지원
+- `msiexec /x lpu230_msr_only_1_8_75.msi /qn /norestart` 사용자 개입 없는 제거 지원
+- 설치파일을 마우스로 우클릭하여 "repair로 실행시 오류 수정
+
 ## 2026.11.17 - lpu230_x64_1_8_75.msi, lpu237_mapper_only_1_50_1.msi, lpu237_mapper_only_x64_1_50_1.msi
 
 - `msiexec /i lpu230_x64_1_8_75.msi /qn /norestart` 사용자 개입 없는 설치 지원
 - `msiexec /x lpu230_x64_1_8_75.msi /qn /norestart` 사용자 개입 없는 제거 지원
+- `msiexec /i lpu237_mapper_only_1_50_1.msi /qn /norestart` 사용자 개입 없는 설치 지원
+- `msiexec /x lpu237_mapper_only_1_50_1.msi /qn /norestart` 사용자 개입 없는 제거 지원
+- `msiexec /i lpu237_mapper_only_x64_1_50_1.msi /qn /norestart` 사용자 개입 없는 설치 지원
+- `msiexec /x lpu237_mapper_only_x64_1_50_1.msi /qn /norestart` 사용자 개입 없는 제거 지원
 - 설치파일을 마우스로 우클릭하여 "repair로 실행시 오류 수정
 
 ## 2026.11.17 - lpu230_1_8_75.msi

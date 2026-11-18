@@ -9,9 +9,9 @@ installer package of lpu23x' software.
 
 # information
 
-* date - 2026.11.17
+* date - 2026.11.17~18
 * description
-  * 정식 release
+  * 정식 release(2026.11.17)
     - [full 32 bits](./full/x86/lpu230_1_8_75.msi) 를  버전 1.8.75로 업데이트.
       - lp23x OPOS Service Object Physical & Logical Devie Name 변경 지원을 위한 새로운 lpu230_opos.exe 프로그램 추가를 위한 업데이트.
       - Physical & Logical Devie Name 변경 지원을 위한 lpu230 MSR SO(OposLpu230.dll) 업데이트.
@@ -37,6 +37,15 @@ installer package of lpu23x' software.
       - `msiexec /x lpu237_mapper_only_x64_1_50_1.msi /qn /norestart` 사용자 개입 없는 제거 지원을 위한 업데이트.
       - 설치파일을 마우스로 우클릭하여 "repair로 실행시 오류 수정을 위한 업데이트.
       - mapper 프로그램 변경 없이 설치 script 변경.
+
+  * 정식 release(2026.11.18)
+    - [msr only 32 bits](./msr_only/x86/lpu230_msr_only_1_8_75.msi) 를 버전 1.8.75로 업데이트.
+      - lp23x OPOS Service Object Physical & Logical Devie Name 변경 지원을 위한 새로운 lpu230_opos.exe 프로그램 추가를 위한 업데이트.
+      - Physical & Logical Devie Name 변경 지원을 위한 lpu230 MSR SO(OposLpu230.dll) 업데이트.
+      - `msiexec /i lpu230_1_8_75.msi /qn /norestart` 사용자 개입 없는 설치 지원을 위한 업데이트.
+      - `msiexec /x lpu230_1_8_75.msi /qn /norestart` 사용자 개입 없는 제거 지원을 위한 업데이트.
+      - 설치파일을 마우스로 우클릭하여 "repair로 실행시 오류 수정을 위한 업데이트.  
+      - lpu230_opos.exe 를 v1.0 에서 1.1 로 업데이트. lpu230_msr_only_1_8_75.msi 을 설치하면, keylock Service Object 가 설치되지 않아서, lpu230_opos.exe v1.0 실행시 오류나는 것 수정. 
 
 * version - 각 버전은 같이 설치 불가. 다른 버전 설치시, 기존 버전 제거 후 , 설치. 같은 버전 끼리만 업데이트.(ex 현재 "full 32 bits" 설치되어 있는데 "full 64 bits" 설치하려면, 기존 것 제거 후, 설치.)
   * [full 32 bits](./full/x86/lpu230_1_8_75.msi) 버전 1.8.75, [SBOM-cyclonedx](./full/x86/lp230-wix-sbom-cyclonedx.json), [SBOM-spdx](./full/x86/lp230-wix-sbom-spdx.json)
@@ -91,7 +100,7 @@ installer package of lpu23x' software.
       - mapper를 통한 설정.
     - 포함된 component
       - Mapper v1.50.0.4
-  * [msr only 32 bits](./msr_only/x86/lpu230_msr_only_1_8_74.msi) 버전 1.8.74,  [SBOM-cyclonedx](./msr_only/x86/lp230-msr-only-wix-sbom-cyclonedx.json),  [SBOM-spdx](./msr_only/x86/lp230-msr-only-wix-sbom-spdx.json)
+  * [msr only 32 bits](./msr_only/x86/lpu230_msr_only_1_8_75.msi) 버전 1.8.75,  [SBOM-cyclonedx](./msr_only/x86/lp230-msr-only-wix-sbom-cyclonedx.json),  [SBOM-spdx](./msr_only/x86/lp230-msr-only-wix-sbom-spdx.json)
     - 주의 : <span style="color:red">MSR SO 는 독립적으로 장비에 접근하기 때문에, 프로그래밍 설계방식에 따라 tg_lpu237_tools.dll 사용시 동기화 문제 발생 소지가 있음.</span>.
     - 지원되는 기능
       - mapper를 통한 설정.
@@ -103,7 +112,7 @@ installer package of lpu23x' software.
       - Windows service process( session 0, system account)에서 MSR application 지원을 위한 dll 사용 가능.
       - Windows service process( session 0, system account)에서 firmware application 지원을 위한 dll 사용 <span style="color:red">불가능</span>.
     - 포함된 components
-      - lpu230 SO v1.8.22
+      - lpu230 SO v1.8.24
       - Mapper v1.50.0.4
       - Javapos SO v1.11
       - lpu237 api v5.1(tg_lpu237_dll.dll)
@@ -114,6 +123,8 @@ installer package of lpu23x' software.
       - controller v1.2.0.1( ng_ManagerCtl.exe )
       - service v1.1.0.1(ng_SSS.exe )
       - DDL v1.1 ( ng_DDL_lpu237.dll )
+      - lpu23x opos Physical & Logical Devie Name 변경 v1.1(lpu230_opos.exe)
+
   * lpu230_update : 고객 특별 요청으로 2019.12.11 부터 배포. Mapper 설치 없이, rom 파일로, lpu237 firmware 를 업데이트하는 프로그램.
     - 지원되는 기능
       - lpu237 firmware 업데이트.

@@ -7,6 +7,19 @@ installer package of lpu23x' software.
 
 * tg_lpu237_x.dll or OPOS 사용시, 이상하면, <span style="color:green">interface 를 USB HID Vendor 로 바꿔보세요.</span>
 
+# 수동 삭제
+<span style="color:red">
+installer package 설치, 제거 중 오류고 제거가 불가능 할 경우에 만, 아래 배치 파일을 사용하세요.
+</span>
+
+## 32bit installer 강제 삭제
+
+- 2026.11.20 추가
+- windows10 x64 에서 test 함
+- lpu230_1_8_69.msi ~ lpu230_1_8_75.msi 까지 test 함
+- 배치 파일 [del_lpu230_x86_69_75.bat](./remover/del_lpu230_x86_69_75.bat)
+- 자세한 설명은 [여기](https://github.com/elpusk/public.lpu237.software/wiki/remver%E2%80%9032bit%E2%80%90installer)
+
 # information
 
 * date - 2026.11.17~18

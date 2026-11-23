@@ -14,10 +14,14 @@ installer package 설치, 제거 중 오류고 제거가 불가능 할 경우에
 
 ## 32bit installer 강제 삭제
 
-- 2026.11.20 추가
+- 2026.11.23 추가
 - windows10 x64 에서 test 함
 - lpu230_1_8_69.msi ~ lpu230_1_8_75.msi 까지 test 함
-- 배치 파일 [del_lpu230_x86_69_75.bat](./remover/del_lpu230_x86_69_75.bat)
+- lpu230_x64_1_8_69.msi ~ lpu230_x64_1_8_75.msi 까지 test 함
+- lpu230_msr_only_1_8_69.msi ~ lpu230_msr_only_1_8_75.msi 까지 test 함
+- lpu237_mapper_only_1_46_0.msi ~ lpu237_mapper_only_1_50_1.msi  까지 test 함
+- lpu237_mapper_only_x64_1_46_0.msi ~ lpu237_mapper_only_x64_1_50_1.msi  까지 test 함
+- 배치 파일 [del_lpu230_x86_69_75.bat](./remover/del_lpu230_69_75.bat)
 - 자세한 설명은 [여기](https://github.com/elpusk/public.lpu237.software/wiki/remver%E2%80%9032bit%E2%80%90installer)
 
 # information
@@ -55,8 +59,8 @@ installer package 설치, 제거 중 오류고 제거가 불가능 할 경우에
     - [msr only 32 bits](./msr_only/x86/lpu230_msr_only_1_8_75.msi) 를 버전 1.8.75로 업데이트.
       - lp23x OPOS Service Object Physical & Logical Devie Name 변경 지원을 위한 새로운 lpu230_opos.exe 프로그램 추가를 위한 업데이트.
       - Physical & Logical Devie Name 변경 지원을 위한 lpu230 MSR SO(OposLpu230.dll) 업데이트.
-      - `msiexec /i lpu230_1_8_75.msi /qn /norestart` 사용자 개입 없는 설치 지원을 위한 업데이트.
-      - `msiexec /x lpu230_1_8_75.msi /qn /norestart` 사용자 개입 없는 제거 지원을 위한 업데이트.
+      - `msiexec /i lpu230_msr_only_1_8_75.msi /qn /norestart` 사용자 개입 없는 설치 지원을 위한 업데이트.
+      - `msiexec /x lpu230_msr_only_1_8_75.msi /qn /norestart` 사용자 개입 없는 제거 지원을 위한 업데이트.
       - 설치파일을 마우스로 우클릭하여 "repair로 실행시 오류 수정을 위한 업데이트.  
       - lpu230_opos.exe 를 v1.0 에서 1.1 로 업데이트. lpu230_msr_only_1_8_75.msi 을 설치하면, keylock Service Object 가 설치되지 않아서, lpu230_opos.exe v1.0 실행시 오류나는 것 수정. 
 

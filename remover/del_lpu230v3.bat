@@ -47,7 +47,7 @@ echo x86 architect
 
 :LARCH_DONE
 
-if "!PROGRAM_DIR86!" === "" goto :LPROGRAM_FILE
+if "!PROGRAM_DIR86!" == "" goto :LPROGRAM_FILE
 
 call :SUB_REMOVE_SERVICE "!PROGRAM_DIR86!"
 

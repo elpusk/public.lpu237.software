@@ -12,16 +12,16 @@ installer package of lpu23x' software.
 installer package 설치, 제거 중 오류고 제거가 불가능 할 경우에 만, 아래 배치 파일을 사용하세요.
 </span>
 
-## 32bit installer 강제 삭제
+## installer 강제 삭제(이 repo 에 push 된 모든 installer)
 
-- 2026.11.23 추가
+- 2026.11.25 추가
 - windows10 x64 에서 test 함
-- lpu230_1_8_69.msi ~ lpu230_1_8_75.msi 까지 test 함
-- lpu230_x64_1_8_69.msi ~ lpu230_x64_1_8_75.msi 까지 test 함
-- lpu230_msr_only_1_8_69.msi ~ lpu230_msr_only_1_8_75.msi 까지 test 함
-- lpu237_mapper_only_1_46_0.msi ~ lpu237_mapper_only_1_50_1.msi  까지 test 함
-- lpu237_mapper_only_x64_1_46_0.msi ~ lpu237_mapper_only_x64_1_50_1.msi  까지 test 함
-- 배치 파일 [del_lpu230_69_75.bat](./remover/del_lpu230_69_75.bat)
+- lpu230_1_8_55.msi ~ lpu230_1_8_75.msi 까지 test 함
+- lpu230_x64_1_8_55.msi ~ lpu230_x64_1_8_75.msi 까지 test 함
+- lpu230_msr_only_1_8_64.msi ~ lpu230_msr_only_1_8_75.msi 까지 test 함
+- lpu237_mapper_only_1_44_0.msi ~ lpu237_mapper_only_1_50_1.msi  까지 test 함
+- lpu237_mapper_only_x64_1_44_0.msi ~ lpu237_mapper_only_x64_1_50_1.msi  까지 test 함
+- 배치 파일 [del_lpu230v3.bat](./remover/del_lpu230v3.bat)
 - 자세한 설명은 [여기](https://github.com/elpusk/public.lpu237.software/wiki/remver%E2%80%9032bit%E2%80%90installer)
 
 # information
